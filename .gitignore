@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.env
+learners.json
+.DS_Store
+.idea/
+.vscode/
+*.log
+vocab_gaps.json

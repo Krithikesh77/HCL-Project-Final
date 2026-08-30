@@ -1,0 +1,16 @@
+# Normalise line endings so the repo stays consistent across Windows, macOS and
+# Linux checkouts. Without this, Git converts to CRLF on Windows and every file
+# looks modified on the next clone.
+* text=auto eol=lf
+
+# Explicit for the file types in this project
+*.py    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.html  text eol=lf
+*.txt   text eol=lf
+
+# Keep data and the single-file frontend out of GitHub's language stats, so the
+# repo reads as the Python project it is
+data/*.json      linguist-generated=false linguist-language=JSON
+static/index.html linguist-vendored=false
