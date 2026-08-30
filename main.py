@@ -1,3 +1,4 @@
+"""added new line"""
 """
 FastAPI layer for the AI-Powered Personalized Learning Path Recommender.
 
