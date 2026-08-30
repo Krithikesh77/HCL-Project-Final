@@ -1,0 +1,4782 @@
+{
+  "courses": [
+    {
+      "id": "c001",
+      "title": "Python for Everybody",
+      "provider": "Coursera",
+      "teaches": [
+        "python"
+      ],
+      "requires": [],
+      "level": "beginner",
+      "hours": 30,
+      "tags": [
+        "programming",
+        "foundations"
+      ],
+      "description": "The gentlest on-ramp to Python: variables, loops, functions, files and data structures, with weekly coding assignments.",
+      "url": "https://www.coursera.org/specializations/python"
+    },
+    {
+      "id": "c002",
+      "title": "Automate the Boring Stuff with Python",
+      "provider": "Udemy",
+      "teaches": [
+        "python",
+        "command-line"
+      ],
+      "requires": [],
+      "level": "beginner",
+      "hours": 22,
+      "tags": [
+        "programming",
+        "foundations",
+        "automation"
+      ],
+      "description": "Learn Python by writing small scripts that do real work: file handling, scraping, spreadsheets and shell automation.",
+      "url": "https://www.udemy.com/course/automate/"
+    },
+    {
+      "id": "c003",
+      "title": "Object-Oriented Python and Clean Code",
+      "provider": "Udemy",
+      "teaches": [
+        "python-oop"
+      ],
+      "requires": [
+        "python"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "programming",
+        "engineering"
+      ],
+      "description": "Classes, dunder methods, type hints, modules and packaging - how to write Python other engineers can maintain.",
+      "url": "https://www.udemy.com/course/object-oriented-python/"
+    },
+    {
+      "id": "c004",
+      "title": "The Missing Semester: Shell and Dev Tooling",
+      "provider": "MIT OpenCourseWare",
+      "teaches": [
+        "command-line"
+      ],
+      "requires": [],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "foundations",
+        "engineering"
+      ],
+      "description": "The command line, shell scripting, editors, virtual environments and the tooling nobody teaches you formally.",
+      "url": "https://missing.csail.mit.edu/"
+    },
+    {
+      "id": "c005",
+      "title": "Git and GitHub for Developers",
+      "provider": "Udemy",
+      "teaches": [
+        "git-version-control"
+      ],
+      "requires": [
+        "command-line"
+      ],
+      "level": "beginner",
+      "hours": 9,
+      "tags": [
+        "engineering",
+        "collaboration"
+      ],
+      "description": "Commits, branches, merges, rebases, pull requests and recovering from mistakes in a real team workflow.",
+      "url": "https://www.udemy.com/course/git-and-github-bootcamp/"
+    },
+    {
+      "id": "c006",
+      "title": "SQL for Data Science",
+      "provider": "Coursera",
+      "teaches": [
+        "sql"
+      ],
+      "requires": [],
+      "level": "beginner",
+      "hours": 20,
+      "tags": [
+        "data",
+        "sql",
+        "foundations"
+      ],
+      "description": "SELECTs to window functions, taught against realistic analytics tables you actually query.",
+      "url": "https://www.coursera.org/learn/sql-for-data-science"
+    },
+    {
+      "id": "c007",
+      "title": "Data Engineering Pipelines with dbt and Airflow",
+      "provider": "Udemy",
+      "teaches": [
+        "data-pipelines"
+      ],
+      "requires": [
+        "sql",
+        "data-cleaning"
+      ],
+      "level": "intermediate",
+      "hours": 18,
+      "tags": [
+        "data",
+        "mlops",
+        "sql"
+      ],
+      "description": "Build scheduled, idempotent ETL pipelines with orchestration, testing and backfills.",
+      "url": "https://www.udemy.com/course/dbt-airflow-data-engineering/"
+    },
+    {
+      "id": "c008",
+      "title": "Linear Algebra for Machine Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "math-linear-algebra"
+      ],
+      "requires": [],
+      "level": "beginner",
+      "hours": 24,
+      "tags": [
+        "math",
+        "foundations"
+      ],
+      "description": "Vectors, matrices, projections and eigenvectors, always motivated by an ML use case.",
+      "url": "https://www.coursera.org/learn/linear-algebra-machine-learning"
+    },
+    {
+      "id": "c009",
+      "title": "Calculus for Machine Learning",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "math-calculus"
+      ],
+      "requires": [],
+      "level": "beginner",
+      "hours": 18,
+      "tags": [
+        "math",
+        "foundations"
+      ],
+      "description": "Derivatives, the chain rule, gradients and optimization - the minimum calculus needed to understand training.",
+      "url": "https://www.deeplearning.ai/courses/mathematics-for-machine-learning-and-data-science-specialization/"
+    },
+    {
+      "id": "c010",
+      "title": "Mathematics for Machine Learning Specialization",
+      "provider": "Coursera",
+      "teaches": [
+        "math-linear-algebra",
+        "math-calculus",
+        "probability"
+      ],
+      "requires": [],
+      "level": "intermediate",
+      "hours": 60,
+      "tags": [
+        "math",
+        "foundations"
+      ],
+      "description": "One long specialization covering linear algebra, multivariate calculus and probability end to end.",
+      "url": "https://www.coursera.org/specializations/mathematics-machine-learning"
+    },
+    {
+      "id": "c011",
+      "title": "Probability Foundations for Data Science",
+      "provider": "edX",
+      "teaches": [
+        "probability"
+      ],
+      "requires": [
+        "math-calculus"
+      ],
+      "level": "beginner",
+      "hours": 20,
+      "tags": [
+        "math",
+        "statistics",
+        "foundations"
+      ],
+      "description": "Random variables, common distributions, expectation, variance and Bayesian reasoning.",
+      "url": "https://www.edx.org/learn/probability"
+    },
+    {
+      "id": "c012",
+      "title": "NumPy: Numerical Computing in Python",
+      "provider": "Udemy",
+      "teaches": [
+        "numpy"
+      ],
+      "requires": [
+        "python",
+        "math-linear-algebra"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "data",
+        "python",
+        "foundations"
+      ],
+      "description": "Arrays, broadcasting, vectorization and why loops are the enemy of numerical Python.",
+      "url": "https://www.udemy.com/course/numpy-python/"
+    },
+    {
+      "id": "c013",
+      "title": "Pandas Data Analysis Masterclass",
+      "provider": "Udemy",
+      "teaches": [
+        "pandas"
+      ],
+      "requires": [
+        "numpy"
+      ],
+      "level": "beginner",
+      "hours": 18,
+      "tags": [
+        "data",
+        "python"
+      ],
+      "description": "DataFrames, indexing, groupby, merges, pivots and time-indexed data at practical depth.",
+      "url": "https://www.udemy.com/course/data-analysis-with-pandas/"
+    },
+    {
+      "id": "c014",
+      "title": "Data Analysis with Python",
+      "provider": "freeCodeCamp",
+      "teaches": [
+        "pandas",
+        "data-cleaning"
+      ],
+      "requires": [
+        "numpy"
+      ],
+      "level": "beginner",
+      "hours": 20,
+      "tags": [
+        "data",
+        "python",
+        "free"
+      ],
+      "description": "A free, project-driven tour of pandas plus the cleaning work that precedes every analysis.",
+      "url": "https://www.freecodecamp.org/learn/data-analysis-with-python/"
+    },
+    {
+      "id": "c015",
+      "title": "Data Cleaning and Wrangling in Python",
+      "provider": "DataCamp",
+      "teaches": [
+        "data-cleaning"
+      ],
+      "requires": [
+        "pandas"
+      ],
+      "level": "beginner",
+      "hours": 12,
+      "tags": [
+        "data"
+      ],
+      "description": "Missing values, outliers, inconsistent categories, dates and reshaping messy real-world tables.",
+      "url": "https://www.datacamp.com/courses/cleaning-data-in-python"
+    },
+    {
+      "id": "c016",
+      "title": "Data Visualization with Matplotlib and Seaborn",
+      "provider": "Udemy",
+      "teaches": [
+        "data-viz"
+      ],
+      "requires": [
+        "pandas"
+      ],
+      "level": "beginner",
+      "hours": 14,
+      "tags": [
+        "data",
+        "visualization"
+      ],
+      "description": "Plot types, faceting, styling and building exploratory dashboards from DataFrames.",
+      "url": "https://www.udemy.com/course/python-data-visualization/"
+    },
+    {
+      "id": "c017",
+      "title": "Storytelling with Data",
+      "provider": "Coursera",
+      "teaches": [
+        "data-viz"
+      ],
+      "requires": [
+        "pandas"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "visualization",
+        "communication"
+      ],
+      "description": "Less about libraries, more about choosing the chart that makes a decision obvious.",
+      "url": "https://www.coursera.org/learn/data-visualization"
+    },
+    {
+      "id": "c018",
+      "title": "Statistics for Data Science",
+      "provider": "Coursera",
+      "teaches": [
+        "statistics"
+      ],
+      "requires": [
+        "probability",
+        "data-viz"
+      ],
+      "level": "intermediate",
+      "hours": 26,
+      "tags": [
+        "statistics",
+        "math"
+      ],
+      "description": "Sampling, estimation, confidence intervals, correlation and the assumptions behind them.",
+      "url": "https://www.coursera.org/learn/statistical-inference"
+    },
+    {
+      "id": "c019",
+      "title": "A/B Testing and Experiment Design",
+      "provider": "Udacity",
+      "teaches": [
+        "hypothesis-testing"
+      ],
+      "requires": [
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "statistics",
+        "product"
+      ],
+      "description": "Designing experiments, computing power, avoiding peeking and interpreting results honestly.",
+      "url": "https://www.udacity.com/course/ab-testing--ud257"
+    },
+    {
+      "id": "c020",
+      "title": "Machine Learning with scikit-learn",
+      "provider": "Coursera",
+      "teaches": [
+        "sklearn-basics"
+      ],
+      "requires": [
+        "pandas",
+        "statistics"
+      ],
+      "level": "beginner",
+      "hours": 22,
+      "tags": [
+        "ml",
+        "python"
+      ],
+      "description": "The estimator API, pipelines, preprocessing and your first end-to-end trained model.",
+      "url": "https://www.coursera.org/learn/machine-learning-with-python"
+    },
+    {
+      "id": "c021",
+      "title": "Hands-On Machine Learning Bootcamp",
+      "provider": "Udemy",
+      "teaches": [
+        "sklearn-basics",
+        "supervised-learning"
+      ],
+      "requires": [
+        "pandas",
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 30,
+      "tags": [
+        "ml",
+        "python",
+        "projects"
+      ],
+      "description": "A dense practical bootcamp that gets you from scikit-learn basics through the full supervised toolkit.",
+      "url": "https://www.udemy.com/course/machinelearning/"
+    },
+    {
+      "id": "c022",
+      "title": "Supervised Machine Learning: Regression and Classification",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "supervised-learning"
+      ],
+      "requires": [
+        "sklearn-basics"
+      ],
+      "level": "beginner",
+      "hours": 25,
+      "tags": [
+        "ml",
+        "foundations"
+      ],
+      "description": "The canonical intro: linear and logistic regression, cost functions, gradient descent and trees.",
+      "url": "https://www.coursera.org/learn/machine-learning"
+    },
+    {
+      "id": "c023",
+      "title": "Unsupervised Learning, Recommenders and Clustering",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "unsupervised-learning"
+      ],
+      "requires": [
+        "sklearn-basics"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "ml"
+      ],
+      "description": "K-means, hierarchical clustering, PCA and anomaly detection with practical diagnostics.",
+      "url": "https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning"
+    },
+    {
+      "id": "c024",
+      "title": "Model Evaluation and Validation",
+      "provider": "Udacity",
+      "teaches": [
+        "model-evaluation"
+      ],
+      "requires": [
+        "supervised-learning"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "ml",
+        "evaluation"
+      ],
+      "description": "Cross-validation, confusion matrices, ROC-AUC, calibration and spotting data leakage.",
+      "url": "https://www.udacity.com/course/machine-learning--ud262"
+    },
+    {
+      "id": "c025",
+      "title": "Regularization and the Bias-Variance Tradeoff",
+      "provider": "Coursera",
+      "teaches": [
+        "regularization"
+      ],
+      "requires": [
+        "supervised-learning"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "ml",
+        "math"
+      ],
+      "description": "Why models overfit and how ridge, lasso, elastic net and early stopping fix it.",
+      "url": "https://www.coursera.org/learn/regularization-machine-learning"
+    },
+    {
+      "id": "c026",
+      "title": "Feature Engineering for Machine Learning",
+      "provider": "Udemy",
+      "teaches": [
+        "feature-engineering"
+      ],
+      "requires": [
+        "model-evaluation",
+        "data-cleaning"
+      ],
+      "level": "intermediate",
+      "hours": 18,
+      "tags": [
+        "ml",
+        "data"
+      ],
+      "description": "Encoding, scaling, binning, target encoding, interactions and disciplined feature selection.",
+      "url": "https://www.udemy.com/course/feature-engineering-for-machine-learning/"
+    },
+    {
+      "id": "c027",
+      "title": "Hyperparameter Tuning and AutoML",
+      "provider": "Coursera",
+      "teaches": [
+        "hyperparameter-tuning"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "ml",
+        "optimization"
+      ],
+      "description": "Grid, random and Bayesian search with Optuna, plus when AutoML is the right call.",
+      "url": "https://www.coursera.org/learn/hyperparameter-tuning"
+    },
+    {
+      "id": "c028",
+      "title": "Ensemble Methods: Bagging, Boosting and Stacking",
+      "provider": "Udemy",
+      "teaches": [
+        "ensemble-methods"
+      ],
+      "requires": [
+        "regularization",
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "ml"
+      ],
+      "description": "Random forests, AdaBoost, gradient boosting and stacked generalization from first principles.",
+      "url": "https://www.udemy.com/course/ensemble-machine-learning/"
+    },
+    {
+      "id": "c029",
+      "title": "XGBoost and LightGBM in Practice",
+      "provider": "Udemy",
+      "teaches": [
+        "gradient-boosting"
+      ],
+      "requires": [
+        "ensemble-methods"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "ml",
+        "tabular",
+        "competitions"
+      ],
+      "description": "Tuning, early stopping, categorical handling and SHAP explanations for boosted trees.",
+      "url": "https://www.udemy.com/course/xgboost-lightgbm/"
+    },
+    {
+      "id": "c030",
+      "title": "Handling Imbalanced Datasets",
+      "provider": "DataCamp",
+      "teaches": [
+        "imbalanced-data"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "ml",
+        "evaluation"
+      ],
+      "description": "SMOTE, class weights, threshold moving and metrics that survive a 1% positive rate.",
+      "url": "https://www.datacamp.com/courses/imbalanced-classification"
+    },
+    {
+      "id": "c031",
+      "title": "Time Series Forecasting in Python",
+      "provider": "Coursera",
+      "teaches": [
+        "time-series"
+      ],
+      "requires": [
+        "statistics",
+        "supervised-learning"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "ml",
+        "forecasting"
+      ],
+      "description": "Stationarity, ARIMA, Prophet, feature-based forecasting and correct temporal validation.",
+      "url": "https://www.coursera.org/learn/time-series-forecasting"
+    },
+    {
+      "id": "c032",
+      "title": "Building Recommender Systems",
+      "provider": "Udemy",
+      "teaches": [
+        "recommender-systems"
+      ],
+      "requires": [
+        "unsupervised-learning",
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 18,
+      "tags": [
+        "ml",
+        "recsys"
+      ],
+      "description": "Collaborative filtering, matrix factorization, implicit feedback and ranking metrics.",
+      "url": "https://www.udemy.com/course/building-recommender-systems-with-machine-learning-and-ai/"
+    },
+    {
+      "id": "c033",
+      "title": "Neural Networks and Deep Learning",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "deep-learning-fundamentals",
+        "backpropagation"
+      ],
+      "requires": [
+        "feature-engineering",
+        "math-calculus",
+        "math-linear-algebra"
+      ],
+      "level": "intermediate",
+      "hours": 30,
+      "tags": [
+        "deep-learning",
+        "foundations"
+      ],
+      "description": "Builds a neural net from scratch in NumPy so forward and backward passes stop being magic.",
+      "url": "https://www.coursera.org/learn/neural-networks-deep-learning"
+    },
+    {
+      "id": "c034",
+      "title": "Practical Deep Learning for Coders Part 1",
+      "provider": "fast.ai",
+      "teaches": [
+        "deep-learning-fundamentals"
+      ],
+      "requires": [
+        "feature-engineering",
+        "math-calculus",
+        "math-linear-algebra"
+      ],
+      "level": "intermediate",
+      "hours": 24,
+      "tags": [
+        "deep-learning",
+        "projects",
+        "free"
+      ],
+      "description": "Top-down deep learning: train a working model in lesson one, then unpack how it works.",
+      "url": "https://course.fast.ai/"
+    },
+    {
+      "id": "c035",
+      "title": "Neural Networks: Zero to Hero (Backprop from Scratch)",
+      "provider": "Karpathy (YouTube)",
+      "teaches": [
+        "backpropagation"
+      ],
+      "requires": [
+        "deep-learning-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "deep-learning",
+        "free",
+        "from-scratch"
+      ],
+      "description": "Builds micrograd line by line - the clearest explanation of autograd anywhere.",
+      "url": "https://karpathy.ai/zero-to-hero.html"
+    },
+    {
+      "id": "c036",
+      "title": "PyTorch for Deep Learning",
+      "provider": "Udemy",
+      "teaches": [
+        "pytorch"
+      ],
+      "requires": [
+        "backpropagation",
+        "numpy"
+      ],
+      "level": "intermediate",
+      "hours": 28,
+      "tags": [
+        "deep-learning",
+        "pytorch"
+      ],
+      "description": "Tensors, autograd, nn.Module, Datasets and DataLoaders, and custom training loops.",
+      "url": "https://www.udemy.com/course/pytorch-for-deep-learning/"
+    },
+    {
+      "id": "c037",
+      "title": "Deep Learning from the Foundations",
+      "provider": "fast.ai",
+      "teaches": [
+        "pytorch",
+        "training-optimization"
+      ],
+      "requires": [
+        "backpropagation",
+        "numpy"
+      ],
+      "level": "advanced",
+      "hours": 35,
+      "tags": [
+        "deep-learning",
+        "pytorch",
+        "free"
+      ],
+      "description": "Rebuilds the training loop, optimizers and callbacks from scratch in PyTorch.",
+      "url": "https://course.fast.ai/Lessons/lesson1.html"
+    },
+    {
+      "id": "c038",
+      "title": "Improving Deep Neural Networks: Tuning and Optimization",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "training-optimization"
+      ],
+      "requires": [
+        "pytorch"
+      ],
+      "level": "intermediate",
+      "hours": 18,
+      "tags": [
+        "deep-learning",
+        "optimization"
+      ],
+      "description": "Initialization, batch norm, dropout, Adam, LR schedules and debugging bad training runs.",
+      "url": "https://www.coursera.org/learn/deep-neural-network"
+    },
+    {
+      "id": "c039",
+      "title": "Convolutional Neural Networks",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "cnns"
+      ],
+      "requires": [
+        "pytorch",
+        "training-optimization"
+      ],
+      "level": "intermediate",
+      "hours": 24,
+      "tags": [
+        "deep-learning",
+        "vision"
+      ],
+      "description": "Convolutions, pooling, ResNets, transfer learning and classic vision architectures.",
+      "url": "https://www.coursera.org/learn/convolutional-neural-networks"
+    },
+    {
+      "id": "c040",
+      "title": "Modern Computer Vision with PyTorch",
+      "provider": "Udemy",
+      "teaches": [
+        "computer-vision"
+      ],
+      "requires": [
+        "cnns"
+      ],
+      "level": "advanced",
+      "hours": 26,
+      "tags": [
+        "vision",
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Object detection, segmentation, augmentation pipelines and shipping a vision model.",
+      "url": "https://www.udemy.com/course/modern-computer-vision/"
+    },
+    {
+      "id": "c041",
+      "title": "Sequence Models: RNNs, LSTMs and GRUs",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "rnns"
+      ],
+      "requires": [
+        "pytorch",
+        "training-optimization"
+      ],
+      "level": "intermediate",
+      "hours": 22,
+      "tags": [
+        "deep-learning",
+        "nlp",
+        "sequences"
+      ],
+      "description": "Recurrent architectures, vanishing gradients and the attention idea that grew out of them.",
+      "url": "https://www.coursera.org/learn/nlp-sequence-models"
+    },
+    {
+      "id": "c042",
+      "title": "Distributed Training at Scale",
+      "provider": "Coursera",
+      "teaches": [
+        "distributed-training"
+      ],
+      "requires": [
+        "training-optimization",
+        "cloud-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "deep-learning",
+        "infrastructure",
+        "mlops"
+      ],
+      "description": "DDP, FSDP, gradient accumulation, sharding and multi-GPU cost/throughput tradeoffs.",
+      "url": "https://www.coursera.org/learn/distributed-training"
+    },
+    {
+      "id": "c043",
+      "title": "NLP Fundamentals with Python",
+      "provider": "Udemy",
+      "teaches": [
+        "nlp-fundamentals"
+      ],
+      "requires": [
+        "python",
+        "data-cleaning"
+      ],
+      "level": "beginner",
+      "hours": 16,
+      "tags": [
+        "nlp",
+        "python"
+      ],
+      "description": "Text normalization, stemming, n-grams, TF-IDF and classical text classification with spaCy.",
+      "url": "https://www.udemy.com/course/nlp-natural-language-processing-with-python/"
+    },
+    {
+      "id": "c044",
+      "title": "Tokenizers and Text Preprocessing",
+      "provider": "Hugging Face",
+      "teaches": [
+        "tokenization"
+      ],
+      "requires": [
+        "nlp-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 6,
+      "tags": [
+        "nlp",
+        "llm",
+        "free"
+      ],
+      "description": "BPE, WordPiece and SentencePiece, plus the token-budget intuitions LLM work depends on.",
+      "url": "https://huggingface.co/learn/nlp-course/chapter6"
+    },
+    {
+      "id": "c045",
+      "title": "Attention Mechanisms Explained",
+      "provider": "Coursera",
+      "teaches": [
+        "attention-mechanism"
+      ],
+      "requires": [
+        "rnns",
+        "tokenization"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "nlp",
+        "deep-learning"
+      ],
+      "description": "From seq2seq alignment to scaled dot-product self-attention, with worked examples.",
+      "url": "https://www.coursera.org/learn/attention-models-in-nlp"
+    },
+    {
+      "id": "c046",
+      "title": "Transformers from Scratch",
+      "provider": "Hugging Face",
+      "teaches": [
+        "transformers"
+      ],
+      "requires": [
+        "attention-mechanism",
+        "cnns"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "nlp",
+        "llm",
+        "free",
+        "from-scratch"
+      ],
+      "description": "Implements multi-head attention, positional encoding and a full transformer block yourself.",
+      "url": "https://huggingface.co/learn/nlp-course/chapter1"
+    },
+    {
+      "id": "c047",
+      "title": "Natural Language Processing with Transformers",
+      "provider": "Udemy",
+      "teaches": [
+        "transformers",
+        "llm-fundamentals"
+      ],
+      "requires": [
+        "attention-mechanism",
+        "cnns"
+      ],
+      "level": "advanced",
+      "hours": 26,
+      "tags": [
+        "nlp",
+        "llm",
+        "projects"
+      ],
+      "description": "Transformer internals plus applied fine-tuning and inference with the Hugging Face stack.",
+      "url": "https://www.udemy.com/course/nlp-with-transformers/"
+    },
+    {
+      "id": "c048",
+      "title": "Generative AI with Large Language Models",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "llm-fundamentals"
+      ],
+      "requires": [
+        "transformers"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "llm",
+        "genai"
+      ],
+      "description": "The LLM lifecycle: pretraining, scaling laws, instruction tuning, sampling and deployment options.",
+      "url": "https://www.coursera.org/learn/generative-ai-with-llms"
+    },
+    {
+      "id": "c049",
+      "title": "ChatGPT Prompt Engineering for Developers",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "prompt-engineering"
+      ],
+      "requires": [
+        "llm-fundamentals"
+      ],
+      "level": "beginner",
+      "hours": 4,
+      "tags": [
+        "llm",
+        "genai",
+        "free"
+      ],
+      "description": "Short, dense and practical: prompt structure, iteration, summarizing, extracting and chaining.",
+      "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
+    },
+    {
+      "id": "c050",
+      "title": "Advanced Prompt Engineering Patterns",
+      "provider": "Udemy",
+      "teaches": [
+        "prompt-engineering"
+      ],
+      "requires": [
+        "llm-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "llm",
+        "genai"
+      ],
+      "description": "Structured output, self-consistency, tool schemas, guardrails and prompt regression tests.",
+      "url": "https://www.udemy.com/course/advanced-prompt-engineering/"
+    },
+    {
+      "id": "c051",
+      "title": "Understanding and Applying Text Embeddings",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "embeddings"
+      ],
+      "requires": [
+        "transformers"
+      ],
+      "level": "beginner",
+      "hours": 6,
+      "tags": [
+        "llm",
+        "rag",
+        "embeddings"
+      ],
+      "description": "What embedding vectors are, how similarity works and how to pick an embedding model.",
+      "url": "https://www.deeplearning.ai/short-courses/understanding-applying-text-embeddings/"
+    },
+    {
+      "id": "c052",
+      "title": "Vector Databases: Pinecone, Weaviate and Chroma",
+      "provider": "Udemy",
+      "teaches": [
+        "vector-databases"
+      ],
+      "requires": [
+        "embeddings"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "llm",
+        "rag",
+        "infrastructure"
+      ],
+      "description": "HNSW and IVF indexes, metadata filtering, upserts and choosing a store for your scale.",
+      "url": "https://www.udemy.com/course/vector-databases/"
+    },
+    {
+      "id": "c053",
+      "title": "Building Semantic Search Systems",
+      "provider": "Coursera",
+      "teaches": [
+        "semantic-search"
+      ],
+      "requires": [
+        "vector-databases",
+        "prompt-engineering"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "rag",
+        "search",
+        "llm"
+      ],
+      "description": "Hybrid BM25 plus dense retrieval, cross-encoder reranking and measuring relevance.",
+      "url": "https://www.coursera.org/learn/semantic-search"
+    },
+    {
+      "id": "c054",
+      "title": "Building and Evaluating RAG Applications",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "rag"
+      ],
+      "requires": [
+        "vector-databases",
+        "prompt-engineering"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "rag",
+        "llm",
+        "genai"
+      ],
+      "description": "Chunking strategies, retrieval, grounded generation with citations and RAG triad evaluation.",
+      "url": "https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/"
+    },
+    {
+      "id": "c055",
+      "title": "Production RAG: Chunking, Reranking and Evaluation",
+      "provider": "Udemy",
+      "teaches": [
+        "rag",
+        "llm-evaluation"
+      ],
+      "requires": [
+        "vector-databases",
+        "prompt-engineering",
+        "model-evaluation"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "rag",
+        "llm",
+        "production"
+      ],
+      "description": "Everything that breaks when a RAG demo meets real documents, plus the evals that catch it.",
+      "url": "https://www.udemy.com/course/production-rag/"
+    },
+    {
+      "id": "c056",
+      "title": "Building LLM Agents with Tool Use",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "llm-agents"
+      ],
+      "requires": [
+        "rag"
+      ],
+      "level": "advanced",
+      "hours": 10,
+      "tags": [
+        "llm",
+        "agents",
+        "genai"
+      ],
+      "description": "Tool schemas, planning loops, memory, retries and keeping multi-step agents on the rails.",
+      "url": "https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/"
+    },
+    {
+      "id": "c057",
+      "title": "Evaluating LLM Applications",
+      "provider": "Coursera",
+      "teaches": [
+        "llm-evaluation"
+      ],
+      "requires": [
+        "llm-fundamentals",
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "llm",
+        "evaluation"
+      ],
+      "description": "Golden datasets, rubric grading, LLM-as-judge, groundedness checks and CI for prompts.",
+      "url": "https://www.coursera.org/learn/evaluating-llm-applications"
+    },
+    {
+      "id": "c058",
+      "title": "Fine-Tuning Large Language Models",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "llm-finetuning"
+      ],
+      "requires": [
+        "llm-fundamentals",
+        "training-optimization"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "llm",
+        "finetuning",
+        "genai"
+      ],
+      "description": "When fine-tuning beats prompting, dataset curation, the SFT loop and evaluating the result.",
+      "url": "https://www.deeplearning.ai/short-courses/finetuning-large-language-models/"
+    },
+    {
+      "id": "c059",
+      "title": "LLM Fine-Tuning Bootcamp",
+      "provider": "Udemy",
+      "teaches": [
+        "llm-finetuning",
+        "peft-lora"
+      ],
+      "requires": [
+        "llm-fundamentals",
+        "training-optimization"
+      ],
+      "level": "advanced",
+      "hours": 24,
+      "tags": [
+        "llm",
+        "finetuning",
+        "projects"
+      ],
+      "description": "A long hands-on bootcamp taking a base model through SFT and LoRA adapters on one GPU.",
+      "url": "https://www.udemy.com/course/llm-fine-tuning-bootcamp/"
+    },
+    {
+      "id": "c060",
+      "title": "LoRA and QLoRA: Parameter-Efficient Fine-Tuning",
+      "provider": "Hugging Face",
+      "teaches": [
+        "peft-lora"
+      ],
+      "requires": [
+        "llm-finetuning"
+      ],
+      "level": "advanced",
+      "hours": 8,
+      "tags": [
+        "llm",
+        "finetuning",
+        "free"
+      ],
+      "description": "Adapters, rank selection, 4-bit base models and merging adapters back for serving.",
+      "url": "https://huggingface.co/docs/peft/index"
+    },
+    {
+      "id": "c061",
+      "title": "RLHF and Preference Tuning with DPO",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "rlhf"
+      ],
+      "requires": [
+        "peft-lora",
+        "llm-evaluation"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "llm",
+        "alignment",
+        "finetuning"
+      ],
+      "description": "Reward modelling, PPO, and why DPO became the practical default for preference tuning.",
+      "url": "https://www.deeplearning.ai/short-courses/reinforcement-learning-from-human-feedback/"
+    },
+    {
+      "id": "c062",
+      "title": "Serving LLMs with vLLM and TGI",
+      "provider": "Udemy",
+      "teaches": [
+        "llm-serving"
+      ],
+      "requires": [
+        "model-deployment",
+        "llm-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "llm",
+        "production",
+        "infrastructure"
+      ],
+      "description": "Continuous batching, KV cache management, streaming responses and throughput tuning.",
+      "url": "https://www.udemy.com/course/llm-serving-vllm/"
+    },
+    {
+      "id": "c063",
+      "title": "Model Quantization and Inference Optimization",
+      "provider": "Coursera",
+      "teaches": [
+        "model-quantization"
+      ],
+      "requires": [
+        "pytorch",
+        "model-deployment"
+      ],
+      "level": "advanced",
+      "hours": 10,
+      "tags": [
+        "deep-learning",
+        "production",
+        "optimization"
+      ],
+      "description": "INT8 and 4-bit quantization, pruning, distillation and measuring the quality you traded away.",
+      "url": "https://www.coursera.org/learn/model-optimization"
+    },
+    {
+      "id": "c064",
+      "title": "Docker for Data Scientists",
+      "provider": "Udemy",
+      "teaches": [
+        "docker"
+      ],
+      "requires": [
+        "command-line"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "mlops",
+        "engineering",
+        "infrastructure"
+      ],
+      "description": "Images, layers, volumes, compose and containerizing a Python ML project reproducibly.",
+      "url": "https://www.udemy.com/course/docker-for-data-science/"
+    },
+    {
+      "id": "c065",
+      "title": "FastAPI: Building Production APIs in Python",
+      "provider": "Udemy",
+      "teaches": [
+        "rest-apis"
+      ],
+      "requires": [
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "engineering",
+        "backend",
+        "python"
+      ],
+      "description": "Routing, Pydantic validation, async endpoints, auth and testing production Python services.",
+      "url": "https://www.udemy.com/course/fastapi-the-complete-course/"
+    },
+    {
+      "id": "c066",
+      "title": "Cloud Fundamentals for Machine Learning (AWS)",
+      "provider": "Coursera",
+      "teaches": [
+        "cloud-fundamentals"
+      ],
+      "requires": [
+        "command-line"
+      ],
+      "level": "beginner",
+      "hours": 18,
+      "tags": [
+        "cloud",
+        "mlops",
+        "infrastructure"
+      ],
+      "description": "EC2, S3, IAM, managed GPUs and the cost model behind training in the cloud.",
+      "url": "https://www.coursera.org/learn/aws-machine-learning"
+    },
+    {
+      "id": "c067",
+      "title": "Deploying Machine Learning Models",
+      "provider": "Udemy",
+      "teaches": [
+        "model-deployment"
+      ],
+      "requires": [
+        "rest-apis",
+        "docker",
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "mlops",
+        "production",
+        "deployment"
+      ],
+      "description": "Serialization, an inference API, containerization, versioning and safe rollbacks.",
+      "url": "https://www.udemy.com/course/deployment-of-machine-learning-models/"
+    },
+    {
+      "id": "c068",
+      "title": "Experiment Tracking with MLflow and Weights & Biases",
+      "provider": "Coursera",
+      "teaches": [
+        "experiment-tracking"
+      ],
+      "requires": [
+        "sklearn-basics",
+        "git-version-control"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "mlops",
+        "tooling"
+      ],
+      "description": "Logging params, metrics and artifacts, comparing runs and promoting models to a registry.",
+      "url": "https://www.coursera.org/learn/mlflow-experiment-tracking"
+    },
+    {
+      "id": "c069",
+      "title": "CI/CD for Machine Learning Projects",
+      "provider": "Udemy",
+      "teaches": [
+        "ci-cd"
+      ],
+      "requires": [
+        "git-version-control",
+        "docker"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "mlops",
+        "engineering"
+      ],
+      "description": "GitHub Actions pipelines that test, build, containerize and ship ML code automatically.",
+      "url": "https://www.udemy.com/course/cicd-for-machine-learning/"
+    },
+    {
+      "id": "c070",
+      "title": "Machine Learning Engineering for Production (MLOps) Specialization",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "mlops-fundamentals",
+        "model-monitoring"
+      ],
+      "requires": [
+        "model-deployment",
+        "experiment-tracking",
+        "ci-cd"
+      ],
+      "level": "advanced",
+      "hours": 32,
+      "tags": [
+        "mlops",
+        "production"
+      ],
+      "description": "The full production lifecycle: data pipelines, training at scale, deployment and monitoring.",
+      "url": "https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops"
+    },
+    {
+      "id": "c071",
+      "title": "MLOps Fundamentals on the Job",
+      "provider": "Coursera",
+      "teaches": [
+        "mlops-fundamentals"
+      ],
+      "requires": [
+        "model-deployment",
+        "experiment-tracking",
+        "ci-cd"
+      ],
+      "level": "intermediate",
+      "hours": 28,
+      "tags": [
+        "mlops",
+        "production"
+      ],
+      "description": "A lighter, tooling-focused path through pipelines, registries and release management.",
+      "url": "https://www.coursera.org/learn/mlops-fundamentals"
+    },
+    {
+      "id": "c072",
+      "title": "Monitoring ML Models in Production",
+      "provider": "Udemy",
+      "teaches": [
+        "model-monitoring"
+      ],
+      "requires": [
+        "mlops-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 8,
+      "tags": [
+        "mlops",
+        "production",
+        "monitoring"
+      ],
+      "description": "Drift detection, data quality alerts, shadow deployments and retraining triggers.",
+      "url": "https://www.udemy.com/course/monitoring-ml-models/"
+    },
+    {
+      "id": "c073",
+      "title": "Data Version Control with DVC",
+      "provider": "Udemy",
+      "teaches": [
+        "data-versioning"
+      ],
+      "requires": [
+        "git-version-control",
+        "data-pipelines"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "mlops",
+        "data",
+        "tooling"
+      ],
+      "description": "Versioning datasets and pipeline stages so a result from three months ago still reproduces.",
+      "url": "https://www.udemy.com/course/data-version-control-dvc/"
+    },
+    {
+      "id": "c074",
+      "title": "ML System Design",
+      "provider": "Educative",
+      "teaches": [
+        "ml-system-design"
+      ],
+      "requires": [
+        "mlops-fundamentals",
+        "feature-engineering"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "ml",
+        "architecture",
+        "interview"
+      ],
+      "description": "Framing ambiguous problems, choosing architectures and defending tradeoffs under constraints.",
+      "url": "https://www.educative.io/courses/machine-learning-system-design"
+    },
+    {
+      "id": "c075",
+      "title": "Building Data Pipelines with Apache Airflow",
+      "provider": "Udemy",
+      "teaches": [
+        "data-pipelines"
+      ],
+      "requires": [
+        "sql",
+        "data-cleaning"
+      ],
+      "level": "intermediate",
+      "hours": 18,
+      "tags": [
+        "data",
+        "mlops",
+        "orchestration"
+      ],
+      "description": "DAGs, operators, scheduling, sensors and monitoring production data workflows.",
+      "url": "https://www.udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow/"
+    },
+    {
+      "id": "c076",
+      "title": "Algorithms and Data Structures in Python",
+      "provider": "Educative",
+      "teaches": [
+        "algorithms"
+      ],
+      "requires": [
+        "python"
+      ],
+      "level": "intermediate",
+      "hours": 24,
+      "tags": [
+        "foundations",
+        "programming"
+      ],
+      "description": "Complexity analysis and the structures you reach for when a loop gets too slow.",
+      "url": "https://www.educative.io/courses/algorithms-and-data-structures-in-python"
+    },
+    {
+      "id": "c077",
+      "title": "Grokking Coding Interviews: Patterns",
+      "provider": "Educative",
+      "teaches": [
+        "algorithms"
+      ],
+      "requires": [
+        "python"
+      ],
+      "level": "intermediate",
+      "hours": 30,
+      "tags": [
+        "foundations",
+        "programming",
+        "projects"
+      ],
+      "description": "Pattern-based practice: sliding windows, two pointers, graphs and dynamic programming.",
+      "url": "https://www.educative.io/courses/grokking-coding-interviews-patterns"
+    },
+    {
+      "id": "c078",
+      "title": "Testing Python Applications with pytest",
+      "provider": "Pluralsight",
+      "teaches": [
+        "software-testing"
+      ],
+      "requires": [
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "engineering",
+        "programming"
+      ],
+      "description": "Fixtures, parametrisation, mocking and the test suite you will actually keep running.",
+      "url": "https://www.pluralsight.com/courses/testing-python-applications-with-pytest"
+    },
+    {
+      "id": "c079",
+      "title": "Clean Code and Testing for Data Scientists",
+      "provider": "Udemy",
+      "teaches": [
+        "software-testing",
+        "debugging-profiling"
+      ],
+      "requires": [
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "engineering",
+        "programming"
+      ],
+      "description": "Bringing software discipline to notebooks: tests, structure, and finding bugs faster.",
+      "url": "https://www.udemy.com/course/clean-code-and-testing-for-data-scientists"
+    },
+    {
+      "id": "c080",
+      "title": "Python Environments and Packaging",
+      "provider": "Pluralsight",
+      "teaches": [
+        "dev-environments"
+      ],
+      "requires": [
+        "command-line",
+        "python"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "engineering",
+        "programming"
+      ],
+      "description": "Virtual environments, lockfiles and builds that reproduce on someone else's machine.",
+      "url": "https://www.pluralsight.com/courses/python-environments-and-packaging"
+    },
+    {
+      "id": "c081",
+      "title": "The Missing Semester: Tooling Deep Dive",
+      "provider": "MIT OpenCourseWare",
+      "teaches": [
+        "dev-environments",
+        "debugging-profiling"
+      ],
+      "requires": [
+        "command-line",
+        "python"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "engineering",
+        "free"
+      ],
+      "description": "The tooling nobody teaches: environments, debuggers, profilers and version pinning.",
+      "url": "https://ocw.mit.edu/courses/the-missing-semester-tooling-deep-dive"
+    },
+    {
+      "id": "c082",
+      "title": "Convex Optimization I",
+      "provider": "Stanford Online",
+      "teaches": [
+        "math-optimization"
+      ],
+      "requires": [
+        "math-calculus",
+        "math-linear-algebra"
+      ],
+      "level": "advanced",
+      "hours": 40,
+      "tags": [
+        "math"
+      ],
+      "description": "Convex sets, duality and the optimisation theory under every training loop.",
+      "url": "https://online.stanford.edu/courses/convex-optimization-i"
+    },
+    {
+      "id": "c083",
+      "title": "Optimization for Machine Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "math-optimization"
+      ],
+      "requires": [
+        "math-calculus",
+        "math-linear-algebra"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "math"
+      ],
+      "description": "Gradient methods, constraints and conditioning, aimed at practitioners rather than proofs.",
+      "url": "https://www.coursera.org/learn/optimization-for-machine-learning"
+    },
+    {
+      "id": "c084",
+      "title": "Information Theory for Machine Learning",
+      "provider": "edX",
+      "teaches": [
+        "information-theory"
+      ],
+      "requires": [
+        "probability"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "math"
+      ],
+      "description": "Entropy, KL divergence and cross-entropy - why your loss function looks the way it does.",
+      "url": "https://www.edx.org/learn/information-theory-for-machine-learning"
+    },
+    {
+      "id": "c085",
+      "title": "Data Warehouse Modeling with dbt",
+      "provider": "DataCamp",
+      "teaches": [
+        "data-modeling"
+      ],
+      "requires": [
+        "sql"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "description": "Dimensional modelling, incremental tables and testing transformations in the warehouse.",
+      "url": "https://www.datacamp.com/courses/data-warehouse-modeling-with-dbt"
+    },
+    {
+      "id": "c086",
+      "title": "Database Design and SQL Modeling",
+      "provider": "Coursera",
+      "teaches": [
+        "data-modeling"
+      ],
+      "requires": [
+        "sql"
+      ],
+      "level": "beginner",
+      "hours": 18,
+      "tags": [
+        "data"
+      ],
+      "description": "Normalisation, keys and schema design before the analytics layer is bolted on.",
+      "url": "https://www.coursera.org/learn/database-design-and-sql-modeling"
+    },
+    {
+      "id": "c087",
+      "title": "Big Data with PySpark",
+      "provider": "DataCamp",
+      "teaches": [
+        "big-data-spark"
+      ],
+      "requires": [
+        "data-pipelines",
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 22,
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "description": "DataFrames, partitions and shuffles for data that no longer fits in pandas.",
+      "url": "https://www.datacamp.com/courses/big-data-with-pyspark"
+    },
+    {
+      "id": "c088",
+      "title": "Distributed Computing with Spark and Dask",
+      "provider": "Udemy",
+      "teaches": [
+        "big-data-spark"
+      ],
+      "requires": [
+        "data-pipelines",
+        "python-oop"
+      ],
+      "level": "advanced",
+      "hours": 26,
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "description": "Cluster execution models, lazy evaluation and diagnosing a slow job.",
+      "url": "https://www.udemy.com/course/distributed-computing-with-spark-and-dask"
+    },
+    {
+      "id": "c089",
+      "title": "Streaming Data Pipelines with Kafka",
+      "provider": "Udemy",
+      "teaches": [
+        "streaming-data"
+      ],
+      "requires": [
+        "data-pipelines"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "description": "Topics, consumers, windowing and the gap between event time and processing time.",
+      "url": "https://www.udemy.com/course/streaming-data-pipelines-with-kafka"
+    },
+    {
+      "id": "c090",
+      "title": "Real-Time Analytics on Google Cloud",
+      "provider": "Google Cloud Skills Boost",
+      "teaches": [
+        "streaming-data"
+      ],
+      "requires": [
+        "data-pipelines"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "data",
+        "infrastructure",
+        "free"
+      ],
+      "description": "Building a streaming pipeline end to end on managed services.",
+      "url": "https://www.cloudskillsboost.google/course_templates/real-time-analytics-on-google-cloud"
+    },
+    {
+      "id": "c091",
+      "title": "Data Quality and Validation in Practice",
+      "provider": "Udemy",
+      "teaches": [
+        "data-quality"
+      ],
+      "requires": [
+        "data-cleaning",
+        "software-testing"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "description": "Expectations, data contracts and failing the pipeline instead of the model.",
+      "url": "https://www.udemy.com/course/data-quality-and-validation-in-practice"
+    },
+    {
+      "id": "c092",
+      "title": "Bayesian Statistics: From Concept to Data Analysis",
+      "provider": "Coursera",
+      "teaches": [
+        "bayesian-statistics"
+      ],
+      "requires": [
+        "statistics",
+        "probability"
+      ],
+      "level": "intermediate",
+      "hours": 24,
+      "tags": [
+        "math",
+        "data"
+      ],
+      "description": "Priors, posteriors and credible intervals, with worked analysis throughout.",
+      "url": "https://www.coursera.org/learn/bayesian-statistics-from-concept-to-data-analysis"
+    },
+    {
+      "id": "c093",
+      "title": "Probabilistic Programming with PyMC",
+      "provider": "Udemy",
+      "teaches": [
+        "bayesian-statistics"
+      ],
+      "requires": [
+        "statistics",
+        "probability"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "math",
+        "data",
+        "projects"
+      ],
+      "description": "Hierarchical models and MCMC sampling for practitioners.",
+      "url": "https://www.udemy.com/course/probabilistic-programming-with-pymc"
+    },
+    {
+      "id": "c094",
+      "title": "Causal Inference for Data Science",
+      "provider": "Coursera",
+      "teaches": [
+        "causal-inference"
+      ],
+      "requires": [
+        "statistics",
+        "hypothesis-testing"
+      ],
+      "level": "advanced",
+      "hours": 26,
+      "tags": [
+        "data",
+        "math"
+      ],
+      "description": "Confounders, treatment effects and why your A/B test is not measuring what you think.",
+      "url": "https://www.coursera.org/learn/causal-inference-for-data-science"
+    },
+    {
+      "id": "c095",
+      "title": "Uplift Modeling and Causal ML",
+      "provider": "Udemy",
+      "teaches": [
+        "causal-inference"
+      ],
+      "requires": [
+        "statistics",
+        "hypothesis-testing"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "data",
+        "ml"
+      ],
+      "description": "Estimating who is actually influenced by an intervention, not just who converts.",
+      "url": "https://www.udemy.com/course/uplift-modeling-and-causal-ml"
+    },
+    {
+      "id": "c096",
+      "title": "Data Labeling and Annotation at Scale",
+      "provider": "Udemy",
+      "teaches": [
+        "data-labeling"
+      ],
+      "requires": [
+        "data-cleaning"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "data"
+      ],
+      "description": "Guidelines, agreement metrics and weak supervision when labels are expensive.",
+      "url": "https://www.udemy.com/course/data-labeling-and-annotation-at-scale"
+    },
+    {
+      "id": "c097",
+      "title": "Synthetic Data Generation for ML",
+      "provider": "Udemy",
+      "teaches": [
+        "synthetic-data"
+      ],
+      "requires": [
+        "data-cleaning",
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "data"
+      ],
+      "description": "Simulating and validating data when the real thing is scarce or sensitive.",
+      "url": "https://www.udemy.com/course/synthetic-data-generation-for-ml"
+    },
+    {
+      "id": "c098",
+      "title": "Linear and Logistic Regression Deep Dive",
+      "provider": "DataCamp",
+      "teaches": [
+        "linear-models"
+      ],
+      "requires": [
+        "sklearn-basics",
+        "statistics"
+      ],
+      "level": "beginner",
+      "hours": 12,
+      "tags": [
+        "ml",
+        "foundations"
+      ],
+      "description": "Coefficients, assumptions and regularised variants of the workhorse models.",
+      "url": "https://www.datacamp.com/courses/linear-and-logistic-regression-deep-dive"
+    },
+    {
+      "id": "c099",
+      "title": "Statistical Learning with Linear Models",
+      "provider": "edX",
+      "teaches": [
+        "linear-models"
+      ],
+      "requires": [
+        "sklearn-basics",
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "ml",
+        "math"
+      ],
+      "description": "The statistical view of regression: inference, diagnostics and shrinkage.",
+      "url": "https://www.edx.org/learn/statistical-learning-with-linear-models"
+    },
+    {
+      "id": "c100",
+      "title": "Decision Trees and Random Forests",
+      "provider": "Udemy",
+      "teaches": [
+        "tree-models"
+      ],
+      "requires": [
+        "sklearn-basics"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "ml"
+      ],
+      "description": "Splits, impurity, depth control and why a forest beats a single tree.",
+      "url": "https://www.udemy.com/course/decision-trees-and-random-forests"
+    },
+    {
+      "id": "c101",
+      "title": "Tree-Based Methods in scikit-learn",
+      "provider": "DataCamp",
+      "teaches": [
+        "tree-models"
+      ],
+      "requires": [
+        "sklearn-basics"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "ml"
+      ],
+      "description": "Practical tree models: tuning depth, handling categoricals, reading feature importance.",
+      "url": "https://www.datacamp.com/courses/tree-based-methods-in-scikit-learn"
+    },
+    {
+      "id": "c102",
+      "title": "Support Vector Machines and Kernels",
+      "provider": "Udemy",
+      "teaches": [
+        "svm-kernels"
+      ],
+      "requires": [
+        "sklearn-basics",
+        "math-linear-algebra"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "ml",
+        "math"
+      ],
+      "description": "Margins, the kernel trick and the datasets where SVMs still win.",
+      "url": "https://www.udemy.com/course/support-vector-machines-and-kernels"
+    },
+    {
+      "id": "c103",
+      "title": "Dimensionality Reduction: PCA, t-SNE and UMAP",
+      "provider": "DataCamp",
+      "teaches": [
+        "dimensionality-reduction"
+      ],
+      "requires": [
+        "unsupervised-learning",
+        "math-linear-algebra"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "ml",
+        "data"
+      ],
+      "description": "Projecting down without throwing away the signal, and reading the plots honestly.",
+      "url": "https://www.datacamp.com/courses/dimensionality-reduction-pca-t-sne-and-umap"
+    },
+    {
+      "id": "c104",
+      "title": "Anomaly Detection in Practice",
+      "provider": "Udemy",
+      "teaches": [
+        "anomaly-detection"
+      ],
+      "requires": [
+        "unsupervised-learning",
+        "imbalanced-data"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "ml",
+        "projects"
+      ],
+      "description": "Isolation forests, one-class methods and evaluating detectors with almost no positives.",
+      "url": "https://www.udemy.com/course/anomaly-detection-in-practice"
+    },
+    {
+      "id": "c105",
+      "title": "Interpretable Machine Learning with SHAP",
+      "provider": "Udemy",
+      "teaches": [
+        "model-interpretability"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "ml"
+      ],
+      "description": "Attributions, partial dependence and explaining a model to someone who did not build it.",
+      "url": "https://www.udemy.com/course/interpretable-machine-learning-with-shap"
+    },
+    {
+      "id": "c106",
+      "title": "Explainable AI Fundamentals",
+      "provider": "Coursera",
+      "teaches": [
+        "model-interpretability"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "ml"
+      ],
+      "description": "What explanations can and cannot tell you, with LIME, SHAP and surrogate models.",
+      "url": "https://www.coursera.org/learn/explainable-ai-fundamentals"
+    },
+    {
+      "id": "c107",
+      "title": "Probability Calibration for Classifiers",
+      "provider": "Udemy",
+      "teaches": [
+        "model-calibration"
+      ],
+      "requires": [
+        "model-evaluation",
+        "probability"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "ml"
+      ],
+      "description": "Making a 0.8 output mean 80%, with Platt scaling, isotonic regression and reliability curves.",
+      "url": "https://www.udemy.com/course/probability-calibration-for-classifiers"
+    },
+    {
+      "id": "c108",
+      "title": "AutoML: Automated Model Selection",
+      "provider": "Coursera",
+      "teaches": [
+        "automl"
+      ],
+      "requires": [
+        "hyperparameter-tuning"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "ml"
+      ],
+      "description": "Automated pipeline search, its budget, and when its answer should not be trusted.",
+      "url": "https://www.coursera.org/learn/automl-automated-model-selection"
+    },
+    {
+      "id": "c109",
+      "title": "Learning to Rank for Search and Recommendations",
+      "provider": "Udemy",
+      "teaches": [
+        "learning-to-rank"
+      ],
+      "requires": [
+        "supervised-learning",
+        "model-evaluation"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "ml",
+        "projects"
+      ],
+      "description": "Pairwise and listwise objectives, NDCG, and evaluating an ordering rather than a score.",
+      "url": "https://www.udemy.com/course/learning-to-rank-for-search-and-recommendations"
+    },
+    {
+      "id": "c110",
+      "title": "Active Learning and Weak Supervision",
+      "provider": "Udemy",
+      "teaches": [
+        "active-learning"
+      ],
+      "requires": [
+        "supervised-learning",
+        "data-labeling"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "ml",
+        "data"
+      ],
+      "description": "Spending a labelling budget where it moves the model most.",
+      "url": "https://www.udemy.com/course/active-learning-and-weak-supervision"
+    },
+    {
+      "id": "c111",
+      "title": "Transfer Learning with PyTorch",
+      "provider": "Udemy",
+      "teaches": [
+        "transfer-learning"
+      ],
+      "requires": [
+        "pytorch",
+        "cnns"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Backbones, frozen layers and fine-tuning a pretrained model on your own small dataset.",
+      "url": "https://www.udemy.com/course/transfer-learning-with-pytorch"
+    },
+    {
+      "id": "c112",
+      "title": "Practical Deep Learning for Coders: Part 1",
+      "provider": "fast.ai",
+      "teaches": [
+        "transfer-learning",
+        "data-augmentation"
+      ],
+      "requires": [
+        "pytorch",
+        "cnns"
+      ],
+      "level": "intermediate",
+      "hours": 30,
+      "tags": [
+        "deep-learning",
+        "projects",
+        "free"
+      ],
+      "description": "Top-down deep learning: get a fine-tuned model working, then learn why it works.",
+      "url": "https://course.fast.ai/practical-deep-learning-for-coders-part-1"
+    },
+    {
+      "id": "c113",
+      "title": "Data Augmentation for Vision Models",
+      "provider": "Udemy",
+      "teaches": [
+        "data-augmentation"
+      ],
+      "requires": [
+        "cnns"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "deep-learning"
+      ],
+      "description": "Augmentation pipelines, mixup and knowing which transforms preserve your labels.",
+      "url": "https://www.udemy.com/course/data-augmentation-for-vision-models"
+    },
+    {
+      "id": "c114",
+      "title": "Object Detection with YOLO and Faster R-CNN",
+      "provider": "Udemy",
+      "teaches": [
+        "object-detection"
+      ],
+      "requires": [
+        "cnns",
+        "computer-vision"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Anchors, IoU, non-max suppression and training a detector on custom classes.",
+      "url": "https://www.udemy.com/course/object-detection-with-yolo-and-faster-r-cnn"
+    },
+    {
+      "id": "c115",
+      "title": "Modern Object Detection",
+      "provider": "Coursera",
+      "teaches": [
+        "object-detection"
+      ],
+      "requires": [
+        "cnns",
+        "computer-vision"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "deep-learning"
+      ],
+      "description": "One-stage and two-stage detectors, and the metrics that make them comparable.",
+      "url": "https://www.coursera.org/learn/modern-object-detection"
+    },
+    {
+      "id": "c116",
+      "title": "Image Segmentation with U-Net and SAM",
+      "provider": "Udemy",
+      "teaches": [
+        "image-segmentation"
+      ],
+      "requires": [
+        "cnns",
+        "computer-vision"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Per-pixel masks: encoder-decoder architectures, losses for imbalance, and promptable models.",
+      "url": "https://www.udemy.com/course/image-segmentation-with-u-net-and-sam"
+    },
+    {
+      "id": "c117",
+      "title": "Autoencoders and Representation Learning",
+      "provider": "Udemy",
+      "teaches": [
+        "autoencoders"
+      ],
+      "requires": [
+        "deep-learning-fundamentals",
+        "backpropagation"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "deep-learning"
+      ],
+      "description": "Bottlenecks, variational autoencoders and what a latent space is actually good for.",
+      "url": "https://www.udemy.com/course/autoencoders-and-representation-learning"
+    },
+    {
+      "id": "c118",
+      "title": "Generative Adversarial Networks Specialization",
+      "provider": "Coursera",
+      "teaches": [
+        "gans"
+      ],
+      "requires": [
+        "autoencoders",
+        "training-optimization"
+      ],
+      "level": "advanced",
+      "hours": 28,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Building GANs from DCGAN up, plus the failure modes that make them hard to train.",
+      "url": "https://www.coursera.org/learn/generative-adversarial-networks-specialization"
+    },
+    {
+      "id": "c119",
+      "title": "How Diffusion Models Work",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "diffusion-models"
+      ],
+      "requires": [
+        "autoencoders",
+        "training-optimization"
+      ],
+      "level": "intermediate",
+      "hours": 6,
+      "tags": [
+        "deep-learning",
+        "genai"
+      ],
+      "description": "Forward and reverse diffusion, samplers and conditioning, built from scratch.",
+      "url": "https://www.deeplearning.ai/short-courses/how-diffusion-models-work"
+    },
+    {
+      "id": "c120",
+      "title": "Stable Diffusion: Theory and Practice",
+      "provider": "Udemy",
+      "teaches": [
+        "diffusion-models"
+      ],
+      "requires": [
+        "autoencoders",
+        "training-optimization"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "deep-learning",
+        "genai",
+        "projects"
+      ],
+      "description": "Latent diffusion, schedulers, ControlNet and fine-tuning image generators.",
+      "url": "https://www.udemy.com/course/stable-diffusion-theory-and-practice"
+    },
+    {
+      "id": "c121",
+      "title": "Self-Supervised Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "self-supervised"
+      ],
+      "requires": [
+        "transfer-learning",
+        "autoencoders"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "deep-learning"
+      ],
+      "description": "Contrastive and masked-modelling objectives that learn without labels.",
+      "url": "https://www.coursera.org/learn/self-supervised-learning"
+    },
+    {
+      "id": "c122",
+      "title": "Graph Neural Networks with PyTorch Geometric",
+      "provider": "Udemy",
+      "teaches": [
+        "graph-neural-networks"
+      ],
+      "requires": [
+        "deep-learning-fundamentals",
+        "math-linear-algebra"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Message passing, sampling on large graphs, and node and edge level tasks.",
+      "url": "https://www.udemy.com/course/graph-neural-networks-with-pytorch-geometric"
+    },
+    {
+      "id": "c123",
+      "title": "Audio and Speech Processing with Transformers",
+      "provider": "Hugging Face",
+      "teaches": [
+        "speech-audio"
+      ],
+      "requires": [
+        "rnns",
+        "transformers"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "deep-learning",
+        "nlp",
+        "free"
+      ],
+      "description": "Spectrograms, Whisper-style transcription and text to speech.",
+      "url": "https://huggingface.co/learn/audio-and-speech-processing-with-transformers"
+    },
+    {
+      "id": "c124",
+      "title": "Building Speech Applications",
+      "provider": "Udemy",
+      "teaches": [
+        "speech-audio"
+      ],
+      "requires": [
+        "rnns",
+        "transformers"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "ASR pipelines, diarisation and shipping a voice interface.",
+      "url": "https://www.udemy.com/course/building-speech-applications"
+    },
+    {
+      "id": "c125",
+      "title": "Multimodal Models: CLIP and Beyond",
+      "provider": "Hugging Face",
+      "teaches": [
+        "multimodal-models"
+      ],
+      "requires": [
+        "transformers",
+        "computer-vision"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "deep-learning",
+        "genai",
+        "free"
+      ],
+      "description": "Joint image-text embeddings, captioning and visual question answering.",
+      "url": "https://huggingface.co/learn/multimodal-models-clip-and-beyond"
+    },
+    {
+      "id": "c126",
+      "title": "Reinforcement Learning Specialization",
+      "provider": "Coursera",
+      "teaches": [
+        "rl-fundamentals",
+        "q-learning"
+      ],
+      "requires": [
+        "probability",
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 40,
+      "tags": [
+        "rl",
+        "ml"
+      ],
+      "description": "MDPs, dynamic programming and temporal difference learning from the Sutton and Barto tradition.",
+      "url": "https://www.coursera.org/learn/reinforcement-learning-specialization"
+    },
+    {
+      "id": "c127",
+      "title": "Reinforcement Learning: A Hands-On Introduction",
+      "provider": "Udemy",
+      "teaches": [
+        "rl-fundamentals"
+      ],
+      "requires": [
+        "probability",
+        "python-oop"
+      ],
+      "level": "beginner",
+      "hours": 18,
+      "tags": [
+        "rl",
+        "projects"
+      ],
+      "description": "Agents, environments and rewards, built up from a gridworld you write yourself.",
+      "url": "https://www.udemy.com/course/reinforcement-learning-a-hands-on-introduction"
+    },
+    {
+      "id": "c128",
+      "title": "Multi-Armed Bandits for Product Decisions",
+      "provider": "Udemy",
+      "teaches": [
+        "bandits"
+      ],
+      "requires": [
+        "probability",
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "rl",
+        "data"
+      ],
+      "description": "Epsilon-greedy, UCB and Thompson sampling, and where bandits beat a fixed A/B test.",
+      "url": "https://www.udemy.com/course/multi-armed-bandits-for-product-decisions"
+    },
+    {
+      "id": "c129",
+      "title": "Building RL Environments with Gymnasium",
+      "provider": "Udemy",
+      "teaches": [
+        "rl-environments"
+      ],
+      "requires": [
+        "rl-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "rl",
+        "projects"
+      ],
+      "description": "Designing observation and action spaces, reward shaping and instrumenting a simulator.",
+      "url": "https://www.udemy.com/course/building-rl-environments-with-gymnasium"
+    },
+    {
+      "id": "c130",
+      "title": "Deep Q-Learning from Scratch",
+      "provider": "Udemy",
+      "teaches": [
+        "deep-rl"
+      ],
+      "requires": [
+        "q-learning",
+        "deep-learning-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "rl",
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Replay buffers, target networks and the tricks that make DQN converge.",
+      "url": "https://www.udemy.com/course/deep-q-learning-from-scratch"
+    },
+    {
+      "id": "c131",
+      "title": "Spinning Up in Deep RL",
+      "provider": "Spinning Up (OpenAI)",
+      "teaches": [
+        "policy-gradients",
+        "actor-critic"
+      ],
+      "requires": [
+        "deep-rl",
+        "math-optimization"
+      ],
+      "level": "advanced",
+      "hours": 30,
+      "tags": [
+        "rl",
+        "deep-learning",
+        "free"
+      ],
+      "description": "Policy gradients, PPO and actor-critic algorithms with reference implementations.",
+      "url": "https://spinningup.openai.com/en/latest/spinning-up-in-deep-rl"
+    },
+    {
+      "id": "c132",
+      "title": "Policy Gradient Methods in Depth",
+      "provider": "Udemy",
+      "teaches": [
+        "policy-gradients"
+      ],
+      "requires": [
+        "deep-rl",
+        "math-optimization"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "rl"
+      ],
+      "description": "REINFORCE through TRPO and PPO, with the variance reduction that makes them usable.",
+      "url": "https://www.udemy.com/course/policy-gradient-methods-in-depth"
+    },
+    {
+      "id": "c133",
+      "title": "Offline Reinforcement Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "offline-rl"
+      ],
+      "requires": [
+        "policy-gradients"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "rl"
+      ],
+      "description": "Learning from logged data, distribution shift and conservative objectives.",
+      "url": "https://www.coursera.org/learn/offline-reinforcement-learning"
+    },
+    {
+      "id": "c134",
+      "title": "Structured Outputs and Function Calling",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "structured-outputs"
+      ],
+      "requires": [
+        "prompt-engineering"
+      ],
+      "level": "beginner",
+      "hours": 4,
+      "tags": [
+        "llm",
+        "genai",
+        "projects"
+      ],
+      "description": "Schema-constrained generation, JSON mode and validating what the model returns.",
+      "url": "https://www.deeplearning.ai/short-courses/structured-outputs-and-function-calling"
+    },
+    {
+      "id": "c135",
+      "title": "Reliable LLM Output with Pydantic",
+      "provider": "Udemy",
+      "teaches": [
+        "structured-outputs"
+      ],
+      "requires": [
+        "prompt-engineering"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "llm",
+        "engineering"
+      ],
+      "description": "Typed responses, retries on validation failure and parsing that does not fall over.",
+      "url": "https://www.udemy.com/course/reliable-llm-output-with-pydantic"
+    },
+    {
+      "id": "c136",
+      "title": "Document Processing for RAG",
+      "provider": "Udemy",
+      "teaches": [
+        "chunking-strategies"
+      ],
+      "requires": [
+        "nlp-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "llm",
+        "rag",
+        "data"
+      ],
+      "description": "PDF and HTML extraction, layout-aware parsing and chunking that preserves meaning.",
+      "url": "https://www.udemy.com/course/document-processing-for-rag"
+    },
+    {
+      "id": "c137",
+      "title": "Advanced Retrieval: Reranking and Hybrid Search",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "reranking"
+      ],
+      "requires": [
+        "semantic-search"
+      ],
+      "level": "intermediate",
+      "hours": 5,
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "description": "Combining BM25 with vectors, then reordering with a cross-encoder.",
+      "url": "https://www.deeplearning.ai/short-courses/advanced-retrieval-reranking-and-hybrid-search"
+    },
+    {
+      "id": "c138",
+      "title": "Search Relevance Engineering",
+      "provider": "Udemy",
+      "teaches": [
+        "reranking"
+      ],
+      "requires": [
+        "semantic-search"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "llm",
+        "rag",
+        "projects"
+      ],
+      "description": "Hybrid retrieval, fusion strategies and measuring relevance improvements honestly.",
+      "url": "https://www.udemy.com/course/search-relevance-engineering"
+    },
+    {
+      "id": "c139",
+      "title": "Evaluating RAG Systems",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "rag-evaluation"
+      ],
+      "requires": [
+        "rag",
+        "llm-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 5,
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "description": "Separating retrieval failures from generation failures, with faithfulness and context metrics.",
+      "url": "https://www.deeplearning.ai/short-courses/evaluating-rag-systems"
+    },
+    {
+      "id": "c140",
+      "title": "Building Agents with Memory",
+      "provider": "LangChain Academy",
+      "teaches": [
+        "agent-memory"
+      ],
+      "requires": [
+        "llm-agents"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "llm",
+        "genai",
+        "free"
+      ],
+      "description": "Short and long term memory, summarisation buffers and keeping an agent coherent.",
+      "url": "https://academy.langchain.com/courses/building-agents-with-memory"
+    },
+    {
+      "id": "c141",
+      "title": "Multi-Agent Systems with LLMs",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "multi-agent-systems"
+      ],
+      "requires": [
+        "llm-agents"
+      ],
+      "level": "advanced",
+      "hours": 6,
+      "tags": [
+        "llm",
+        "genai",
+        "projects"
+      ],
+      "description": "Roles, handoffs and supervision patterns, plus when one agent would have done.",
+      "url": "https://www.deeplearning.ai/short-courses/multi-agent-systems-with-llms"
+    },
+    {
+      "id": "c142",
+      "title": "LLM Observability and Tracing",
+      "provider": "Weights & Biases",
+      "teaches": [
+        "llm-observability"
+      ],
+      "requires": [
+        "llm-evaluation",
+        "model-monitoring"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "llm",
+        "mlops"
+      ],
+      "description": "Traces, spans, token accounting and debugging a chain you cannot step through.",
+      "url": "https://wandb.ai/courses/llm-observability-and-tracing"
+    },
+    {
+      "id": "c143",
+      "title": "Securing LLM Applications",
+      "provider": "Udemy",
+      "teaches": [
+        "prompt-injection-defense"
+      ],
+      "requires": [
+        "prompt-engineering",
+        "llm-evaluation"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "llm",
+        "production"
+      ],
+      "description": "Prompt injection, tool abuse, output handling and defence in depth around a model.",
+      "url": "https://www.udemy.com/course/securing-llm-applications"
+    },
+    {
+      "id": "c144",
+      "title": "Red Teaming LLM Applications",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "prompt-injection-defense"
+      ],
+      "requires": [
+        "prompt-engineering",
+        "llm-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 4,
+      "tags": [
+        "llm",
+        "genai"
+      ],
+      "description": "Attacking your own application before someone else does.",
+      "url": "https://www.deeplearning.ai/short-courses/red-teaming-llm-applications"
+    },
+    {
+      "id": "c145",
+      "title": "Long-Context Language Models",
+      "provider": "Udemy",
+      "teaches": [
+        "long-context"
+      ],
+      "requires": [
+        "transformers",
+        "attention-mechanism"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "llm"
+      ],
+      "description": "Position encodings, attention variants and what actually degrades at long context.",
+      "url": "https://www.udemy.com/course/long-context-language-models"
+    },
+    {
+      "id": "c146",
+      "title": "Model Merging and Adapter Composition",
+      "provider": "Hugging Face",
+      "teaches": [
+        "model-merging"
+      ],
+      "requires": [
+        "peft-lora"
+      ],
+      "level": "advanced",
+      "hours": 6,
+      "tags": [
+        "llm",
+        "finetuning",
+        "free"
+      ],
+      "description": "Combining fine-tunes with merging methods instead of retraining.",
+      "url": "https://huggingface.co/learn/model-merging-and-adapter-composition"
+    },
+    {
+      "id": "c147",
+      "title": "LLM Inference Optimization",
+      "provider": "Udemy",
+      "teaches": [
+        "inference-optimization"
+      ],
+      "requires": [
+        "llm-serving",
+        "model-quantization"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "llm",
+        "production",
+        "infrastructure"
+      ],
+      "description": "KV cache management, paged and flash attention, batching and speculative decoding.",
+      "url": "https://www.udemy.com/course/llm-inference-optimization"
+    },
+    {
+      "id": "c148",
+      "title": "Building Instruction Datasets",
+      "provider": "Hugging Face",
+      "teaches": [
+        "llm-data-curation"
+      ],
+      "requires": [
+        "llm-fundamentals",
+        "data-quality"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "llm",
+        "finetuning",
+        "data",
+        "free"
+      ],
+      "description": "Generating, filtering and deduplicating the data a fine-tune actually needs.",
+      "url": "https://huggingface.co/learn/building-instruction-datasets"
+    },
+    {
+      "id": "c149",
+      "title": "LLM Cost Engineering",
+      "provider": "Udemy",
+      "teaches": [
+        "llm-cost-optimization"
+      ],
+      "requires": [
+        "llm-serving"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "llm",
+        "production"
+      ],
+      "description": "Routing between models, caching prompts and doing the arithmetic before the invoice.",
+      "url": "https://www.udemy.com/course/llm-cost-engineering"
+    },
+    {
+      "id": "c150",
+      "title": "Kubernetes for Machine Learning",
+      "provider": "Udemy",
+      "teaches": [
+        "kubernetes"
+      ],
+      "requires": [
+        "docker"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "mlops",
+        "infrastructure"
+      ],
+      "description": "Pods, services and resource limits, aimed at GPU and batch ML workloads.",
+      "url": "https://www.udemy.com/course/kubernetes-for-machine-learning"
+    },
+    {
+      "id": "c151",
+      "title": "Kubernetes Fundamentals",
+      "provider": "Google Cloud Skills Boost",
+      "teaches": [
+        "kubernetes"
+      ],
+      "requires": [
+        "docker"
+      ],
+      "level": "beginner",
+      "hours": 12,
+      "tags": [
+        "infrastructure",
+        "free"
+      ],
+      "description": "The core objects and kubectl workflow, without assuming prior cluster experience.",
+      "url": "https://www.cloudskillsboost.google/course_templates/kubernetes-fundamentals"
+    },
+    {
+      "id": "c152",
+      "title": "Infrastructure as Code with Terraform",
+      "provider": "Pluralsight",
+      "teaches": [
+        "infrastructure-as-code"
+      ],
+      "requires": [
+        "cloud-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "infrastructure",
+        "mlops"
+      ],
+      "description": "Declarative provisioning, state files and environments that can be rebuilt.",
+      "url": "https://www.pluralsight.com/courses/infrastructure-as-code-with-terraform"
+    },
+    {
+      "id": "c153",
+      "title": "GPU Infrastructure for Deep Learning",
+      "provider": "Udemy",
+      "teaches": [
+        "gpu-infrastructure"
+      ],
+      "requires": [
+        "cloud-fundamentals",
+        "distributed-training"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "infrastructure",
+        "deep-learning"
+      ],
+      "description": "Drivers, memory limits, multi-GPU interconnects and diagnosing an underused GPU.",
+      "url": "https://www.udemy.com/course/gpu-infrastructure-for-deep-learning"
+    },
+    {
+      "id": "c154",
+      "title": "Model Registries and Versioning",
+      "provider": "Weights & Biases",
+      "teaches": [
+        "model-registry"
+      ],
+      "requires": [
+        "experiment-tracking",
+        "mlops-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "mlops"
+      ],
+      "description": "Lineage, promotion and knowing exactly which artefact is serving traffic.",
+      "url": "https://wandb.ai/courses/model-registries-and-versioning"
+    },
+    {
+      "id": "c155",
+      "title": "Feature Stores in Production",
+      "provider": "Udemy",
+      "teaches": [
+        "feature-store"
+      ],
+      "requires": [
+        "feature-engineering",
+        "data-pipelines"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "mlops",
+        "data"
+      ],
+      "description": "Online and offline stores, point-in-time correctness and training-serving skew.",
+      "url": "https://www.udemy.com/course/feature-stores-in-production"
+    },
+    {
+      "id": "c156",
+      "title": "Progressive Delivery for ML Services",
+      "provider": "Udemy",
+      "teaches": [
+        "progressive-delivery"
+      ],
+      "requires": [
+        "model-deployment",
+        "ci-cd"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "mlops",
+        "production"
+      ],
+      "description": "Canary and shadow deploys, automated rollback and flagging a model off quickly.",
+      "url": "https://www.udemy.com/course/progressive-delivery-for-ml-services"
+    },
+    {
+      "id": "c157",
+      "title": "Online Experimentation for ML",
+      "provider": "Coursera",
+      "teaches": [
+        "online-experimentation"
+      ],
+      "requires": [
+        "hypothesis-testing",
+        "model-deployment"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "mlops",
+        "data"
+      ],
+      "description": "Measuring a model against the one it replaces, with guardrail metrics and holdouts.",
+      "url": "https://www.coursera.org/learn/online-experimentation-for-ml"
+    },
+    {
+      "id": "c158",
+      "title": "Cloud Cost Optimization for ML",
+      "provider": "AWS Skill Builder",
+      "teaches": [
+        "ml-cost-optimization"
+      ],
+      "requires": [
+        "cloud-fundamentals",
+        "model-deployment"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "mlops",
+        "infrastructure"
+      ],
+      "description": "Autoscaling, spot capacity and knowing your cost per thousand inferences.",
+      "url": "https://explore.skillbuilder.aws/learn/course/cloud-cost-optimization-for-ml"
+    },
+    {
+      "id": "c159",
+      "title": "Data Privacy and Compliance for ML",
+      "provider": "Coursera",
+      "teaches": [
+        "data-privacy"
+      ],
+      "requires": [
+        "cloud-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "production",
+        "governance"
+      ],
+      "description": "PII handling, retention, consent and what regulation constrains in a training set.",
+      "url": "https://www.coursera.org/learn/data-privacy-and-compliance-for-ml"
+    },
+    {
+      "id": "c160",
+      "title": "On-Device Machine Learning",
+      "provider": "Udacity",
+      "teaches": [
+        "edge-deployment"
+      ],
+      "requires": [
+        "model-quantization",
+        "model-deployment"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "production",
+        "projects"
+      ],
+      "description": "ONNX and TFLite conversion, latency budgets and models that fit in a phone.",
+      "url": "https://www.udacity.com/course/on-device-machine-learning"
+    },
+    {
+      "id": "c161",
+      "title": "Responsible AI: Principles and Practice",
+      "provider": "Coursera",
+      "teaches": [
+        "ai-ethics"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "governance"
+      ],
+      "description": "Harms, trade-offs and the questions worth asking before a model ships.",
+      "url": "https://www.coursera.org/learn/responsible-ai-principles-and-practice"
+    },
+    {
+      "id": "c162",
+      "title": "AI Ethics: From Principles to Practice",
+      "provider": "edX",
+      "teaches": [
+        "ai-ethics"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "beginner",
+      "hours": 12,
+      "tags": [
+        "governance"
+      ],
+      "description": "Case studies in deployed systems, and where good intentions failed to survive contact.",
+      "url": "https://www.edx.org/learn/ai-ethics-from-principles-to-practice"
+    },
+    {
+      "id": "c163",
+      "title": "Fairness in Machine Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "bias-fairness"
+      ],
+      "requires": [
+        "ai-ethics",
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "governance",
+        "ml"
+      ],
+      "description": "Measuring disparate impact and the fairness definitions that provably conflict.",
+      "url": "https://www.coursera.org/learn/fairness-in-machine-learning"
+    },
+    {
+      "id": "c164",
+      "title": "Auditing Models for Bias",
+      "provider": "Udemy",
+      "teaches": [
+        "bias-fairness"
+      ],
+      "requires": [
+        "ai-ethics",
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "governance",
+        "projects"
+      ],
+      "description": "Slice analysis, fairness metrics and writing an audit someone else can check.",
+      "url": "https://www.udemy.com/course/auditing-models-for-bias"
+    },
+    {
+      "id": "c165",
+      "title": "Model Cards and ML Documentation",
+      "provider": "Udemy",
+      "teaches": [
+        "model-documentation"
+      ],
+      "requires": [
+        "ai-ethics",
+        "model-evaluation"
+      ],
+      "level": "beginner",
+      "hours": 6,
+      "tags": [
+        "governance"
+      ],
+      "description": "Documenting intended use, limits and evaluation so a model can be judged.",
+      "url": "https://www.udemy.com/course/model-cards-and-ml-documentation"
+    },
+    {
+      "id": "c166",
+      "title": "Adversarial Machine Learning",
+      "provider": "Udemy",
+      "teaches": [
+        "adversarial-robustness"
+      ],
+      "requires": [
+        "deep-learning-fundamentals",
+        "model-evaluation"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "governance",
+        "deep-learning"
+      ],
+      "description": "Crafted inputs, evasion attacks and the defences that only partly work.",
+      "url": "https://www.udemy.com/course/adversarial-machine-learning"
+    },
+    {
+      "id": "c167",
+      "title": "Privacy-Preserving Machine Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "privacy-preserving-ml"
+      ],
+      "requires": [
+        "data-privacy",
+        "deep-learning-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "governance",
+        "ml"
+      ],
+      "description": "Differential privacy, federated learning and bounding what a model memorises.",
+      "url": "https://www.coursera.org/learn/privacy-preserving-machine-learning"
+    },
+    {
+      "id": "c168",
+      "title": "AI Governance and the EU AI Act",
+      "provider": "edX",
+      "teaches": [
+        "ai-governance"
+      ],
+      "requires": [
+        "ai-ethics",
+        "data-privacy"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "governance"
+      ],
+      "description": "Risk tiers, conformity assessment and the documentation that now ships with a system.",
+      "url": "https://www.edx.org/learn/ai-governance-and-the-eu-ai-act"
+    },
+    {
+      "id": "c169",
+      "title": "Machine Learning Engineering Bootcamp",
+      "provider": "Udacity",
+      "teaches": [
+        "linear-models",
+        "tree-models",
+        "model-interpretability"
+      ],
+      "requires": [
+        "sklearn-basics",
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 34,
+      "tags": [
+        "ml",
+        "projects"
+      ],
+      "description": "A broad practitioner sweep across the classical toolkit, with a capstone.",
+      "url": "https://www.udacity.com/course/machine-learning-engineering-bootcamp"
+    },
+    {
+      "id": "c170",
+      "title": "Full Stack Deep Learning",
+      "provider": "Full Stack Deep Learning",
+      "teaches": [
+        "model-registry",
+        "progressive-delivery",
+        "llm-observability"
+      ],
+      "requires": [
+        "model-deployment",
+        "ci-cd",
+        "llm-evaluation",
+        "model-monitoring",
+        "experiment-tracking",
+        "mlops-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 32,
+      "tags": [
+        "mlops",
+        "production",
+        "free",
+        "projects"
+      ],
+      "description": "Taking models to production: infrastructure, deployment, monitoring and team practice.",
+      "url": "https://fullstackdeeplearning.com/course/full-stack-deep-learning"
+    },
+    {
+      "id": "c171",
+      "title": "Applied Generative AI Engineering",
+      "provider": "Udemy",
+      "teaches": [
+        "structured-outputs",
+        "chunking-strategies",
+        "llm-cost-optimization"
+      ],
+      "requires": [
+        "prompt-engineering",
+        "nlp-fundamentals",
+        "llm-serving"
+      ],
+      "level": "intermediate",
+      "hours": 26,
+      "tags": [
+        "llm",
+        "genai",
+        "projects"
+      ],
+      "description": "The engineering around a model: parsing, chunking, routing and keeping costs sane.",
+      "url": "https://www.udemy.com/course/applied-generative-ai-engineering"
+    },
+    {
+      "id": "c172",
+      "title": "Modern Computer Vision Bootcamp",
+      "provider": "Udemy",
+      "teaches": [
+        "object-detection",
+        "image-segmentation",
+        "data-augmentation"
+      ],
+      "requires": [
+        "cnns",
+        "computer-vision"
+      ],
+      "level": "advanced",
+      "hours": 36,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Detection, segmentation and augmentation in one project-heavy sequence.",
+      "url": "https://www.udemy.com/course/modern-computer-vision-bootcamp"
+    },
+    {
+      "id": "c173",
+      "title": "Deep Reinforcement Learning Nanodegree",
+      "provider": "Udacity",
+      "teaches": [
+        "deep-rl",
+        "policy-gradients",
+        "actor-critic"
+      ],
+      "requires": [
+        "q-learning",
+        "deep-learning-fundamentals",
+        "math-optimization"
+      ],
+      "level": "advanced",
+      "hours": 40,
+      "tags": [
+        "rl",
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Value methods through actor-critic, with continuous control projects.",
+      "url": "https://www.udacity.com/course/deep-reinforcement-learning-nanodegree"
+    },
+    {
+      "id": "c174",
+      "title": "Data Engineering Fundamentals",
+      "provider": "DataCamp",
+      "teaches": [
+        "data-modeling",
+        "streaming-data",
+        "data-quality"
+      ],
+      "requires": [
+        "sql",
+        "data-pipelines",
+        "data-cleaning",
+        "software-testing"
+      ],
+      "level": "intermediate",
+      "hours": 28,
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "description": "Warehousing, streaming and validation for people who will own the pipeline.",
+      "url": "https://www.datacamp.com/courses/data-engineering-fundamentals"
+    },
+    {
+      "id": "c175",
+      "title": "Production ML Infrastructure",
+      "provider": "Coursera",
+      "teaches": [
+        "kubernetes",
+        "infrastructure-as-code",
+        "ml-cost-optimization"
+      ],
+      "requires": [
+        "docker",
+        "cloud-fundamentals",
+        "model-deployment"
+      ],
+      "level": "advanced",
+      "hours": 30,
+      "tags": [
+        "mlops",
+        "infrastructure"
+      ],
+      "description": "Clusters, provisioning and capacity planning for teams running models at scale.",
+      "url": "https://www.coursera.org/learn/production-ml-infrastructure"
+    },
+    {
+      "id": "c176",
+      "title": "Trustworthy AI Systems",
+      "provider": "edX",
+      "teaches": [
+        "bias-fairness",
+        "model-documentation",
+        "adversarial-robustness"
+      ],
+      "requires": [
+        "ai-ethics",
+        "model-evaluation",
+        "deep-learning-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 24,
+      "tags": [
+        "governance",
+        "ml"
+      ],
+      "description": "Fairness, robustness and documentation treated as engineering requirements.",
+      "url": "https://www.edx.org/learn/trustworthy-ai-systems"
+    },
+    {
+      "id": "c177",
+      "title": "Evaluating Machine Learning Models",
+      "provider": "Kaggle Learn",
+      "teaches": [
+        "model-evaluation"
+      ],
+      "requires": [
+        "sklearn-basics"
+      ],
+      "level": "beginner",
+      "hours": 6,
+      "tags": [
+        "ml",
+        "free"
+      ],
+      "description": "Validation splits, leakage and the metrics that match the decision you are making.",
+      "url": "https://www.kaggle.com/learn/evaluating-machine-learning-models"
+    },
+    {
+      "id": "c178",
+      "title": "Model Validation and Metrics in Depth",
+      "provider": "Udemy",
+      "teaches": [
+        "model-evaluation",
+        "model-calibration"
+      ],
+      "requires": [
+        "sklearn-basics",
+        "probability"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "ml"
+      ],
+      "description": "Cross-validation strategies, threshold choice and calibrated probabilities.",
+      "url": "https://www.udemy.com/course/model-validation-and-metrics-in-depth"
+    },
+    {
+      "id": "c179",
+      "title": "Statistics for Machine Learning",
+      "provider": "Udemy",
+      "teaches": [
+        "statistics"
+      ],
+      "requires": [
+        "numpy"
+      ],
+      "level": "beginner",
+      "hours": 20,
+      "tags": [
+        "math",
+        "data"
+      ],
+      "description": "Distributions, estimation and inference framed around modelling decisions.",
+      "url": "https://www.udemy.com/course/statistics-for-machine-learning"
+    },
+    {
+      "id": "c180",
+      "title": "Intro to Statistics",
+      "provider": "Kaggle Learn",
+      "teaches": [
+        "statistics"
+      ],
+      "requires": [
+        "numpy"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "math",
+        "data",
+        "free"
+      ],
+      "description": "A fast, practical pass through the statistics a model builder actually uses.",
+      "url": "https://www.kaggle.com/learn/intro-to-statistics"
+    },
+    {
+      "id": "c181",
+      "title": "Deploying Models with FastAPI and Docker",
+      "provider": "Udemy",
+      "teaches": [
+        "model-deployment"
+      ],
+      "requires": [
+        "rest-apis",
+        "docker"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "mlops",
+        "production",
+        "projects"
+      ],
+      "description": "Packaging a model behind an API, containerising it and shipping it somewhere real.",
+      "url": "https://www.udemy.com/course/deploying-models-with-fastapi-and-docker"
+    },
+    {
+      "id": "c182",
+      "title": "Machine Learning Deployment on AWS",
+      "provider": "AWS Skill Builder",
+      "teaches": [
+        "model-deployment"
+      ],
+      "requires": [
+        "cloud-fundamentals",
+        "rest-apis"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "mlops",
+        "production"
+      ],
+      "description": "Endpoints, autoscaling and the managed path from artefact to served model.",
+      "url": "https://explore.skillbuilder.aws/learn/course/machine-learning-deployment-on-aws"
+    },
+    {
+      "id": "c183",
+      "title": "Convolutional Networks with PyTorch",
+      "provider": "Udemy",
+      "teaches": [
+        "cnns"
+      ],
+      "requires": [
+        "pytorch",
+        "training-optimization"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Convolutions, pooling and modern architectures, built and trained from scratch.",
+      "url": "https://www.udemy.com/course/convolutional-networks-with-pytorch"
+    },
+    {
+      "id": "c184",
+      "title": "Cloud Foundations for Data Teams",
+      "provider": "Microsoft Learn",
+      "teaches": [
+        "cloud-fundamentals"
+      ],
+      "requires": [
+        "command-line"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "infrastructure",
+        "free"
+      ],
+      "description": "Compute, storage, identity and networking, from the point of view of a data team.",
+      "url": "https://learn.microsoft.com/training/paths/cloud-foundations-for-data-teams"
+    },
+    {
+      "id": "c185",
+      "title": "Intermediate Python: Classes and Modules",
+      "provider": "DataCamp",
+      "teaches": [
+        "python-oop"
+      ],
+      "requires": [
+        "python"
+      ],
+      "level": "beginner",
+      "hours": 12,
+      "tags": [
+        "programming",
+        "foundations"
+      ],
+      "description": "Classes, inheritance and packaging code into modules others can import.",
+      "url": "https://www.datacamp.com/courses/intermediate-python-classes-and-modules"
+    },
+    {
+      "id": "c186",
+      "title": "Python OOP and Design Patterns",
+      "provider": "Educative",
+      "teaches": [
+        "python-oop"
+      ],
+      "requires": [
+        "python"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "programming",
+        "engineering"
+      ],
+      "description": "Composition, interfaces and the patterns that keep a growing codebase tractable.",
+      "url": "https://www.educative.io/courses/python-oop-and-design-patterns"
+    },
+    {
+      "id": "c187",
+      "title": "Variational Autoencoders Explained",
+      "provider": "Coursera",
+      "teaches": [
+        "autoencoders"
+      ],
+      "requires": [
+        "deep-learning-fundamentals",
+        "backpropagation"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "deep-learning"
+      ],
+      "description": "The probabilistic view of latent variables, reparameterisation and the ELBO.",
+      "url": "https://www.coursera.org/learn/variational-autoencoders-explained"
+    },
+    {
+      "id": "c188",
+      "title": "Computer Vision Fundamentals",
+      "provider": "Udacity",
+      "teaches": [
+        "computer-vision"
+      ],
+      "requires": [
+        "cnns"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Classification, features and evaluation for image problems end to end.",
+      "url": "https://www.udacity.com/course/computer-vision-fundamentals"
+    },
+    {
+      "id": "c189",
+      "title": "Containers for Machine Learning",
+      "provider": "Google Cloud Skills Boost",
+      "teaches": [
+        "docker"
+      ],
+      "requires": [
+        "command-line"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "infrastructure",
+        "mlops",
+        "free"
+      ],
+      "description": "Images, layers and reproducible environments for training and serving.",
+      "url": "https://www.cloudskillsboost.google/course_templates/containers-for-machine-learning"
+    },
+    {
+      "id": "c190",
+      "title": "Feature Engineering for Tabular Data",
+      "provider": "Kaggle Learn",
+      "teaches": [
+        "feature-engineering"
+      ],
+      "requires": [
+        "pandas",
+        "sklearn-basics"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "ml",
+        "data",
+        "free"
+      ],
+      "description": "Encodings, interactions and leakage-free transformations on real competition data.",
+      "url": "https://www.kaggle.com/learn/feature-engineering-for-tabular-data"
+    },
+    {
+      "id": "c191",
+      "title": "Git Fundamentals",
+      "provider": "freeCodeCamp",
+      "teaches": [
+        "git-version-control"
+      ],
+      "requires": [
+        "command-line"
+      ],
+      "level": "beginner",
+      "hours": 6,
+      "tags": [
+        "engineering",
+        "free"
+      ],
+      "description": "Commits, branches, merges and undoing the mistake you just made.",
+      "url": "https://www.freecodecamp.org/learn/git-fundamentals"
+    },
+    {
+      "id": "c192",
+      "title": "Clustering and Unsupervised Methods",
+      "provider": "Udemy",
+      "teaches": [
+        "unsupervised-learning"
+      ],
+      "requires": [
+        "sklearn-basics"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "ml"
+      ],
+      "description": "K-means, hierarchical and density methods, plus how to tell if a clustering means anything.",
+      "url": "https://www.udemy.com/course/clustering-and-unsupervised-methods"
+    },
+    {
+      "id": "c193",
+      "title": "Attention and Transformers from Scratch",
+      "provider": "Karpathy (YouTube)",
+      "teaches": [
+        "attention-mechanism",
+        "transformers"
+      ],
+      "requires": [
+        "pytorch",
+        "backpropagation"
+      ],
+      "level": "advanced",
+      "hours": 10,
+      "tags": [
+        "deep-learning",
+        "nlp",
+        "free",
+        "projects"
+      ],
+      "description": "Building attention and a small transformer line by line, with nothing hidden.",
+      "url": "https://www.youtube.com/watch?v=attention-and-transformers-from-scratch"
+    },
+    {
+      "id": "c194",
+      "title": "CI/CD with GitHub Actions",
+      "provider": "Pluralsight",
+      "teaches": [
+        "ci-cd"
+      ],
+      "requires": [
+        "git-version-control"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "engineering",
+        "mlops"
+      ],
+      "description": "Pipelines, matrix builds and automated checks on every push.",
+      "url": "https://www.pluralsight.com/courses/ci-cd-with-github-actions"
+    },
+    {
+      "id": "c195",
+      "title": "Privacy Engineering Essentials",
+      "provider": "Udemy",
+      "teaches": [
+        "data-privacy"
+      ],
+      "requires": [
+        "cloud-fundamentals"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "governance",
+        "production"
+      ],
+      "description": "Classifying data, minimising collection and designing for deletion.",
+      "url": "https://www.udemy.com/course/privacy-engineering-essentials"
+    },
+    {
+      "id": "c196",
+      "title": "Experiment Tracking and Reproducibility",
+      "provider": "Udemy",
+      "teaches": [
+        "experiment-tracking"
+      ],
+      "requires": [
+        "python-oop"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "mlops"
+      ],
+      "description": "Runs, parameters and artefacts, so a result from last month can be rebuilt.",
+      "url": "https://www.udemy.com/course/experiment-tracking-and-reproducibility"
+    },
+    {
+      "id": "c197",
+      "title": "A/B Testing at Scale",
+      "provider": "Udacity",
+      "teaches": [
+        "hypothesis-testing"
+      ],
+      "requires": [
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "data",
+        "projects"
+      ],
+      "description": "Designing, powering and reading experiments without fooling yourself.",
+      "url": "https://www.udacity.com/course/a-b-testing-at-scale"
+    },
+    {
+      "id": "c198",
+      "title": "Agents with LangGraph",
+      "provider": "LangChain Academy",
+      "teaches": [
+        "llm-agents"
+      ],
+      "requires": [
+        "prompt-engineering",
+        "rest-apis"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "llm",
+        "genai",
+        "free",
+        "projects"
+      ],
+      "description": "Graph-structured agents, tool nodes and control flow you can actually inspect.",
+      "url": "https://academy.langchain.com/courses/agents-with-langgraph"
+    },
+    {
+      "id": "c199",
+      "title": "Building Autonomous Agents",
+      "provider": "Udemy",
+      "teaches": [
+        "llm-agents",
+        "agent-memory"
+      ],
+      "requires": [
+        "prompt-engineering",
+        "rest-apis"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "llm",
+        "genai",
+        "projects"
+      ],
+      "description": "Planning loops, tool use and memory, with the failure modes each one introduces.",
+      "url": "https://www.udemy.com/course/building-autonomous-agents"
+    },
+    {
+      "id": "c200",
+      "title": "Reinforcement Learning Explained",
+      "provider": "edX",
+      "teaches": [
+        "rl-fundamentals"
+      ],
+      "requires": [
+        "probability",
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 22,
+      "tags": [
+        "rl"
+      ],
+      "description": "Markov decision processes and dynamic programming, worked slowly.",
+      "url": "https://www.edx.org/learn/reinforcement-learning-explained"
+    },
+    {
+      "id": "c201",
+      "title": "Bandit Algorithms for Recommendations",
+      "provider": "Coursera",
+      "teaches": [
+        "bandits"
+      ],
+      "requires": [
+        "probability",
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "rl",
+        "ml"
+      ],
+      "description": "Exploration under uncertainty, applied to ranking and recommendation.",
+      "url": "https://www.coursera.org/learn/bandit-algorithms-for-recommendations"
+    },
+    {
+      "id": "c202",
+      "title": "Q-Learning and Value Methods",
+      "provider": "Udemy",
+      "teaches": [
+        "q-learning"
+      ],
+      "requires": [
+        "rl-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "rl",
+        "projects"
+      ],
+      "description": "Tabular methods, temporal difference updates and convergence in practice.",
+      "url": "https://www.udemy.com/course/q-learning-and-value-methods"
+    },
+    {
+      "id": "c203",
+      "title": "Kubernetes for Data Engineers",
+      "provider": "Pluralsight",
+      "teaches": [
+        "kubernetes"
+      ],
+      "requires": [
+        "docker"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "infrastructure",
+        "mlops"
+      ],
+      "description": "Jobs, cron workloads and resource requests for data and ML pipelines.",
+      "url": "https://www.pluralsight.com/courses/kubernetes-for-data-engineers"
+    },
+    {
+      "id": "c204",
+      "title": "Terraform in Practice",
+      "provider": "Udemy",
+      "teaches": [
+        "infrastructure-as-code"
+      ],
+      "requires": [
+        "cloud-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "infrastructure"
+      ],
+      "description": "Modules, state and the workflow of changing infrastructure safely.",
+      "url": "https://www.udemy.com/course/terraform-in-practice"
+    },
+    {
+      "id": "c205",
+      "title": "Vector Search with FAISS and pgvector",
+      "provider": "Udemy",
+      "teaches": [
+        "vector-databases"
+      ],
+      "requires": [
+        "embeddings"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "llm",
+        "rag",
+        "projects"
+      ],
+      "description": "Index types, recall-latency trade-offs and running vector search yourself.",
+      "url": "https://www.udemy.com/course/vector-search-with-faiss-and-pgvector"
+    },
+    {
+      "id": "c206",
+      "title": "Semantic Search Systems",
+      "provider": "Coursera",
+      "teaches": [
+        "semantic-search",
+        "reranking"
+      ],
+      "requires": [
+        "embeddings",
+        "vector-databases"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "description": "Retrieval quality end to end: embeddings, indexes, hybrid scoring and reranking.",
+      "url": "https://www.coursera.org/learn/semantic-search-systems"
+    },
+    {
+      "id": "c207",
+      "title": "Fine-Tuning Open LLMs",
+      "provider": "Hugging Face",
+      "teaches": [
+        "llm-finetuning",
+        "peft-lora"
+      ],
+      "requires": [
+        "transformers",
+        "llm-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "llm",
+        "finetuning",
+        "free",
+        "projects"
+      ],
+      "description": "SFT, LoRA adapters and evaluating whether the fine-tune actually helped.",
+      "url": "https://huggingface.co/learn/fine-tuning-open-llms"
+    },
+    {
+      "id": "c208",
+      "title": "Serving LLMs in Production",
+      "provider": "Udemy",
+      "teaches": [
+        "llm-serving",
+        "inference-optimization"
+      ],
+      "requires": [
+        "model-deployment",
+        "llm-fundamentals",
+        "model-quantization"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "llm",
+        "production",
+        "infrastructure"
+      ],
+      "description": "Throughput, batching and memory on a serving stack you have to keep up.",
+      "url": "https://www.udemy.com/course/serving-llms-in-production"
+    },
+    {
+      "id": "c209",
+      "title": "Prompt Engineering for Developers",
+      "provider": "DeepLearning.AI",
+      "teaches": [
+        "prompt-engineering"
+      ],
+      "requires": [
+        "llm-fundamentals"
+      ],
+      "level": "beginner",
+      "hours": 4,
+      "tags": [
+        "llm",
+        "genai"
+      ],
+      "description": "Systematic prompting: structure, examples, iteration and evaluation.",
+      "url": "https://www.deeplearning.ai/short-courses/prompt-engineering-for-developers"
+    },
+    {
+      "id": "c210",
+      "title": "Quantization and Model Compression",
+      "provider": "Hugging Face",
+      "teaches": [
+        "model-quantization"
+      ],
+      "requires": [
+        "pytorch",
+        "llm-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 8,
+      "tags": [
+        "deep-learning",
+        "production",
+        "free"
+      ],
+      "description": "Post-training quantisation, GGUF and where accuracy actually goes.",
+      "url": "https://huggingface.co/learn/quantization-and-model-compression"
+    },
+    {
+      "id": "c211",
+      "title": "Monitoring ML Systems",
+      "provider": "Weights & Biases",
+      "teaches": [
+        "model-monitoring"
+      ],
+      "requires": [
+        "model-deployment"
+      ],
+      "level": "intermediate",
+      "hours": 10,
+      "tags": [
+        "mlops",
+        "production"
+      ],
+      "description": "Drift detection, alerting and dashboards that catch a silent model failure.",
+      "url": "https://wandb.ai/courses/monitoring-ml-systems"
+    },
+    {
+      "id": "c212",
+      "title": "Data Versioning with DVC",
+      "provider": "Udemy",
+      "teaches": [
+        "data-versioning"
+      ],
+      "requires": [
+        "git-version-control"
+      ],
+      "level": "intermediate",
+      "hours": 8,
+      "tags": [
+        "mlops",
+        "data"
+      ],
+      "description": "Versioning datasets and pipelines alongside code, without committing gigabytes.",
+      "url": "https://www.udemy.com/course/data-versioning-with-dvc"
+    },
+    {
+      "id": "c213",
+      "title": "ML System Design Interview Prep",
+      "provider": "Educative",
+      "teaches": [
+        "ml-system-design"
+      ],
+      "requires": [
+        "model-deployment",
+        "feature-engineering"
+      ],
+      "level": "advanced",
+      "hours": 20,
+      "tags": [
+        "ml",
+        "engineering"
+      ],
+      "description": "Framing requirements, sizing components and defending a design under questioning.",
+      "url": "https://www.educative.io/courses/ml-system-design-interview-prep"
+    },
+    {
+      "id": "c214",
+      "title": "Time Series Forecasting with Python",
+      "provider": "Udemy",
+      "teaches": [
+        "time-series"
+      ],
+      "requires": [
+        "pandas",
+        "statistics"
+      ],
+      "level": "intermediate",
+      "hours": 18,
+      "tags": [
+        "ml",
+        "data",
+        "projects"
+      ],
+      "description": "Seasonality, stationarity and validation that respects the arrow of time.",
+      "url": "https://www.udemy.com/course/time-series-forecasting-with-python"
+    },
+    {
+      "id": "c215",
+      "title": "Recommender Systems in Practice",
+      "provider": "Coursera",
+      "teaches": [
+        "recommender-systems",
+        "learning-to-rank"
+      ],
+      "requires": [
+        "supervised-learning",
+        "model-evaluation"
+      ],
+      "level": "advanced",
+      "hours": 24,
+      "tags": [
+        "ml",
+        "projects"
+      ],
+      "description": "Collaborative filtering through ranking objectives, with offline and online evaluation.",
+      "url": "https://www.coursera.org/learn/recommender-systems-in-practice"
+    },
+    {
+      "id": "c216",
+      "title": "Ensemble Methods and Boosting",
+      "provider": "Udemy",
+      "teaches": [
+        "ensemble-methods",
+        "gradient-boosting"
+      ],
+      "requires": [
+        "tree-models",
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "ml",
+        "projects"
+      ],
+      "description": "Bagging, stacking and gradient boosting, with tuning that does not overfit the leaderboard.",
+      "url": "https://www.udemy.com/course/ensemble-methods-and-boosting"
+    },
+    {
+      "id": "c217",
+      "title": "Practical Data Cleaning",
+      "provider": "DataCamp",
+      "teaches": [
+        "data-cleaning"
+      ],
+      "requires": [
+        "pandas"
+      ],
+      "level": "beginner",
+      "hours": 10,
+      "tags": [
+        "data"
+      ],
+      "description": "Missing values, types, duplicates and the joins that quietly drop rows.",
+      "url": "https://www.datacamp.com/courses/practical-data-cleaning"
+    },
+    {
+      "id": "c218",
+      "title": "Data Visualization with Python",
+      "provider": "freeCodeCamp",
+      "teaches": [
+        "data-viz"
+      ],
+      "requires": [
+        "pandas"
+      ],
+      "level": "beginner",
+      "hours": 12,
+      "tags": [
+        "data",
+        "free",
+        "projects"
+      ],
+      "description": "Matplotlib and seaborn, and choosing the chart that answers the question.",
+      "url": "https://www.freecodecamp.org/learn/data-visualization-with-python"
+    },
+    {
+      "id": "c219",
+      "title": "Deep Learning Fundamentals",
+      "provider": "Weights & Biases",
+      "teaches": [
+        "deep-learning-fundamentals",
+        "training-optimization"
+      ],
+      "requires": [
+        "pytorch",
+        "backpropagation"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "deep-learning"
+      ],
+      "description": "Layers, losses, optimisers and reading a training curve.",
+      "url": "https://wandb.ai/courses/deep-learning-fundamentals"
+    },
+    {
+      "id": "c220",
+      "title": "Sequence Models with PyTorch",
+      "provider": "Udemy",
+      "teaches": [
+        "rnns"
+      ],
+      "requires": [
+        "pytorch",
+        "deep-learning-fundamentals"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "deep-learning",
+        "nlp"
+      ],
+      "description": "RNNs, LSTMs and where attention replaced them.",
+      "url": "https://www.udemy.com/course/sequence-models-with-pytorch"
+    },
+    {
+      "id": "c221",
+      "title": "NLP with Transformers",
+      "provider": "Hugging Face",
+      "teaches": [
+        "nlp-fundamentals",
+        "tokenization"
+      ],
+      "requires": [
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 16,
+      "tags": [
+        "nlp",
+        "llm",
+        "free",
+        "projects"
+      ],
+      "description": "Tokenisation, pipelines and fine-tuning for classic NLP tasks.",
+      "url": "https://huggingface.co/learn/nlp-with-transformers"
+    },
+    {
+      "id": "c222",
+      "title": "MLOps Foundations",
+      "provider": "Coursera",
+      "teaches": [
+        "mlops-fundamentals",
+        "model-registry"
+      ],
+      "requires": [
+        "model-deployment",
+        "ci-cd",
+        "experiment-tracking"
+      ],
+      "level": "intermediate",
+      "hours": 22,
+      "tags": [
+        "mlops"
+      ],
+      "description": "Lifecycle, registries and the handover between research and production.",
+      "url": "https://www.coursera.org/learn/mlops-foundations"
+    },
+    {
+      "id": "c223",
+      "title": "Interpretable ML with Python",
+      "provider": "O'Reilly",
+      "teaches": [
+        "model-interpretability"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "ml"
+      ],
+      "description": "Global and local explanations, and communicating them without overclaiming.",
+      "url": "https://learning.oreilly.com/course/interpretable-ml-with-python"
+    },
+    {
+      "id": "c224",
+      "title": "Responsible AI in Production",
+      "provider": "Google Cloud Skills Boost",
+      "teaches": [
+        "ai-ethics",
+        "model-documentation"
+      ],
+      "requires": [
+        "model-evaluation"
+      ],
+      "level": "beginner",
+      "hours": 8,
+      "tags": [
+        "governance",
+        "free"
+      ],
+      "description": "Practical governance: documentation, review gates and monitoring for harm.",
+      "url": "https://www.cloudskillsboost.google/course_templates/responsible-ai-in-production"
+    },
+    {
+      "id": "c225",
+      "title": "Adversarial Robustness Toolbox in Practice",
+      "provider": "Udemy",
+      "teaches": [
+        "adversarial-robustness"
+      ],
+      "requires": [
+        "deep-learning-fundamentals",
+        "model-evaluation"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "governance",
+        "deep-learning",
+        "projects"
+      ],
+      "description": "Generating attacks and hardening a model, with honest limits on the defences.",
+      "url": "https://www.udemy.com/course/adversarial-robustness-toolbox-in-practice"
+    },
+    {
+      "id": "c226",
+      "title": "Federated Learning Systems",
+      "provider": "Udemy",
+      "teaches": [
+        "privacy-preserving-ml"
+      ],
+      "requires": [
+        "data-privacy",
+        "deep-learning-fundamentals"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "governance",
+        "ml"
+      ],
+      "description": "Training across devices, aggregation protocols and the privacy budget.",
+      "url": "https://www.udemy.com/course/federated-learning-systems"
+    },
+    {
+      "id": "c227",
+      "title": "Edge AI with ONNX Runtime",
+      "provider": "Udemy",
+      "teaches": [
+        "edge-deployment"
+      ],
+      "requires": [
+        "model-quantization",
+        "model-deployment"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "production",
+        "projects"
+      ],
+      "description": "Exporting, converting and profiling models for constrained hardware.",
+      "url": "https://www.udemy.com/course/edge-ai-with-onnx-runtime"
+    },
+    {
+      "id": "c228",
+      "title": "Streaming Feature Pipelines",
+      "provider": "Udemy",
+      "teaches": [
+        "feature-store",
+        "streaming-data"
+      ],
+      "requires": [
+        "feature-engineering",
+        "data-pipelines"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "mlops",
+        "data"
+      ],
+      "description": "Computing features once and serving them to both training and inference.",
+      "url": "https://www.udemy.com/course/streaming-feature-pipelines"
+    },
+    {
+      "id": "c229",
+      "title": "Spark for Machine Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "big-data-spark"
+      ],
+      "requires": [
+        "data-pipelines",
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 20,
+      "tags": [
+        "data",
+        "ml"
+      ],
+      "description": "MLlib, distributed feature engineering and training on data that does not fit.",
+      "url": "https://www.coursera.org/learn/spark-for-machine-learning"
+    },
+    {
+      "id": "c230",
+      "title": "Practical Bayesian Methods",
+      "provider": "Udemy",
+      "teaches": [
+        "bayesian-statistics",
+        "model-calibration"
+      ],
+      "requires": [
+        "statistics",
+        "probability"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "math",
+        "ml"
+      ],
+      "description": "Bayesian workflow from prior choice to posterior checks, with calibration.",
+      "url": "https://www.udemy.com/course/practical-bayesian-methods"
+    },
+    {
+      "id": "c231",
+      "title": "Graph Machine Learning",
+      "provider": "Coursera",
+      "teaches": [
+        "graph-neural-networks"
+      ],
+      "requires": [
+        "deep-learning-fundamentals",
+        "math-linear-algebra"
+      ],
+      "level": "advanced",
+      "hours": 22,
+      "tags": [
+        "deep-learning"
+      ],
+      "description": "Embeddings on graphs, GNN layers and tasks at node, edge and graph level.",
+      "url": "https://www.coursera.org/learn/graph-machine-learning"
+    },
+    {
+      "id": "c232",
+      "title": "Diffusion Models from Scratch",
+      "provider": "Hugging Face",
+      "teaches": [
+        "diffusion-models"
+      ],
+      "requires": [
+        "autoencoders",
+        "training-optimization"
+      ],
+      "level": "advanced",
+      "hours": 12,
+      "tags": [
+        "deep-learning",
+        "genai",
+        "free",
+        "projects"
+      ],
+      "description": "Implementing the forward and reverse processes, then conditioning them.",
+      "url": "https://huggingface.co/learn/diffusion-models-from-scratch"
+    },
+    {
+      "id": "c233",
+      "title": "Speech Recognition Systems",
+      "provider": "Coursera",
+      "teaches": [
+        "speech-audio"
+      ],
+      "requires": [
+        "rnns",
+        "transformers"
+      ],
+      "level": "advanced",
+      "hours": 18,
+      "tags": [
+        "deep-learning",
+        "nlp"
+      ],
+      "description": "Acoustic modelling, decoding and evaluating transcription quality.",
+      "url": "https://www.coursera.org/learn/speech-recognition-systems"
+    },
+    {
+      "id": "c234",
+      "title": "Vision-Language Models in Practice",
+      "provider": "Udemy",
+      "teaches": [
+        "multimodal-models"
+      ],
+      "requires": [
+        "transformers",
+        "computer-vision"
+      ],
+      "level": "advanced",
+      "hours": 16,
+      "tags": [
+        "deep-learning",
+        "genai",
+        "projects"
+      ],
+      "description": "Fine-tuning and prompting VLMs for captioning, retrieval and document understanding.",
+      "url": "https://www.udemy.com/course/vision-language-models-in-practice"
+    },
+    {
+      "id": "c235",
+      "title": "Testing Data Pipelines",
+      "provider": "Udemy",
+      "teaches": [
+        "data-quality",
+        "software-testing"
+      ],
+      "requires": [
+        "data-cleaning",
+        "python-oop"
+      ],
+      "level": "intermediate",
+      "hours": 12,
+      "tags": [
+        "data",
+        "engineering"
+      ],
+      "description": "Unit and integration tests for transformations, plus contract checks at the boundary.",
+      "url": "https://www.udemy.com/course/testing-data-pipelines"
+    },
+    {
+      "id": "c236",
+      "title": "Algorithms for Interviews and Practice",
+      "provider": "freeCodeCamp",
+      "teaches": [
+        "algorithms"
+      ],
+      "requires": [
+        "python"
+      ],
+      "level": "beginner",
+      "hours": 20,
+      "tags": [
+        "foundations",
+        "programming",
+        "free"
+      ],
+      "description": "Core structures and complexity, taught through worked problems.",
+      "url": "https://www.freecodecamp.org/learn/algorithms-for-interviews-and-practice"
+    },
+    {
+      "id": "c237",
+      "title": "Applied Optimization for ML",
+      "provider": "Udemy",
+      "teaches": [
+        "math-optimization"
+      ],
+      "requires": [
+        "math-calculus",
+        "math-linear-algebra"
+      ],
+      "level": "intermediate",
+      "hours": 14,
+      "tags": [
+        "math"
+      ],
+      "description": "Gradient methods, momentum and conditioning, tied directly to training behaviour.",
+      "url": "https://www.udemy.com/course/applied-optimization-for-ml"
+    },
+    {
+      "id": "c238",
+      "title": "Anomaly Detection for Time Series",
+      "provider": "Coursera",
+      "teaches": [
+        "anomaly-detection"
+      ],
+      "requires": [
+        "unsupervised-learning",
+        "imbalanced-data"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "ml",
+        "data"
+      ],
+      "description": "Detecting the unusual in streams, and evaluating detectors with very few positives.",
+      "url": "https://www.coursera.org/learn/anomaly-detection-for-time-series"
+    },
+    {
+      "id": "c239",
+      "title": "Dimensionality Reduction and Manifolds",
+      "provider": "edX",
+      "teaches": [
+        "dimensionality-reduction"
+      ],
+      "requires": [
+        "unsupervised-learning",
+        "math-linear-algebra"
+      ],
+      "level": "advanced",
+      "hours": 14,
+      "tags": [
+        "ml",
+        "math"
+      ],
+      "description": "Linear and nonlinear projections, and reading what the embedding preserves.",
+      "url": "https://www.edx.org/learn/dimensionality-reduction-and-manifolds"
+    }
+  ]
+}

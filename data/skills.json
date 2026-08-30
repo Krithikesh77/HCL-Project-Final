@@ -1,0 +1,2217 @@
+{
+  "domain": "AI / ML Engineering",
+  "skills": [
+    {
+      "id": "python",
+      "name": "Python Programming",
+      "description": "Core Python syntax, data structures, control flow, functions and modules.",
+      "requires": [],
+      "aliases": [
+        "python3",
+        "py",
+        "scripting",
+        "programming basics"
+      ]
+    },
+    {
+      "id": "python-oop",
+      "name": "Object-Oriented Python",
+      "description": "Classes, inheritance, typing, packaging and writing reusable Python modules.",
+      "requires": [
+        "python"
+      ],
+      "aliases": [
+        "oop",
+        "object oriented",
+        "classes",
+        "packaging",
+        "type hints",
+        "mypy"
+      ]
+    },
+    {
+      "id": "command-line",
+      "name": "Command Line & Shell",
+      "description": "Navigating a shell, package managers, virtual environments and scripting basics.",
+      "requires": [],
+      "aliases": [
+        "shell",
+        "bash",
+        "terminal",
+        "cli",
+        "zsh",
+        "linux"
+      ]
+    },
+    {
+      "id": "git-version-control",
+      "name": "Git & Version Control",
+      "description": "Branching, merging, pull requests and collaborative workflows with Git.",
+      "requires": [
+        "command-line"
+      ],
+      "aliases": [
+        "git",
+        "github",
+        "gitlab",
+        "version control",
+        "branching",
+        "pull request"
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "description": "Querying relational databases: joins, aggregations, window functions.",
+      "requires": [],
+      "aliases": [
+        "postgres",
+        "postgresql",
+        "mysql",
+        "sqlite",
+        "queries",
+        "joins",
+        "database",
+        "bigquery",
+        "snowflake"
+      ]
+    },
+    {
+      "id": "math-linear-algebra",
+      "name": "Linear Algebra",
+      "description": "Vectors, matrices, dot products, eigenvalues - the language of ML models.",
+      "requires": [],
+      "aliases": [
+        "matrices",
+        "matrix",
+        "vectors",
+        "eigenvalues",
+        "dot product"
+      ]
+    },
+    {
+      "id": "math-calculus",
+      "name": "Calculus for ML",
+      "description": "Derivatives, partial derivatives, chain rule and gradients.",
+      "requires": [],
+      "aliases": [
+        "calculus",
+        "derivatives",
+        "gradients",
+        "chain rule",
+        "partial derivatives"
+      ]
+    },
+    {
+      "id": "probability",
+      "name": "Probability",
+      "description": "Random variables, distributions, expectation and Bayes rule.",
+      "requires": [
+        "math-calculus"
+      ],
+      "aliases": [
+        "bayes",
+        "distributions",
+        "random variables",
+        "likelihood"
+      ]
+    },
+    {
+      "id": "numpy",
+      "name": "NumPy",
+      "description": "Vectorized array computation, broadcasting and numerical operations.",
+      "requires": [
+        "python",
+        "math-linear-algebra"
+      ],
+      "aliases": [
+        "np",
+        "arrays",
+        "vectorization",
+        "broadcasting",
+        "ndarray"
+      ]
+    },
+    {
+      "id": "pandas",
+      "name": "Pandas",
+      "description": "DataFrames, indexing, groupby, joins and tabular data manipulation.",
+      "requires": [
+        "numpy"
+      ],
+      "aliases": [
+        "dataframe",
+        "data frames",
+        "data analysis",
+        "excel",
+        "csv"
+      ]
+    },
+    {
+      "id": "data-cleaning",
+      "name": "Data Cleaning & Wrangling",
+      "description": "Missing values, outliers, type coercion, deduplication and reshaping.",
+      "requires": [
+        "pandas"
+      ],
+      "aliases": [
+        "wrangling",
+        "munging",
+        "missing values",
+        "preprocessing",
+        "tidy data"
+      ]
+    },
+    {
+      "id": "data-viz",
+      "name": "Data Visualization",
+      "description": "Plotting distributions and relationships to explore and communicate data.",
+      "requires": [
+        "pandas"
+      ],
+      "aliases": [
+        "visualization",
+        "matplotlib",
+        "seaborn",
+        "plotly",
+        "charts",
+        "plots",
+        "dashboards",
+        "tableau"
+      ]
+    },
+    {
+      "id": "data-pipelines",
+      "name": "Data Pipelines",
+      "description": "Scheduled ETL/ELT jobs, orchestration and reproducible data ingestion.",
+      "requires": [
+        "sql",
+        "data-cleaning"
+      ],
+      "aliases": [
+        "airflow",
+        "dbt",
+        "etl",
+        "elt",
+        "prefect",
+        "dagster",
+        "data engineering",
+        "ingestion"
+      ]
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics",
+      "description": "Descriptive statistics, sampling, confidence intervals and correlation.",
+      "requires": [
+        "probability",
+        "data-viz"
+      ],
+      "aliases": [
+        "stats",
+        "inference",
+        "confidence interval",
+        "sampling",
+        "correlation"
+      ]
+    },
+    {
+      "id": "hypothesis-testing",
+      "name": "Hypothesis Testing & A/B Tests",
+      "description": "p-values, statistical power, experiment design and A/B test analysis.",
+      "requires": [
+        "statistics"
+      ],
+      "aliases": [
+        "a/b testing",
+        "ab test",
+        "split test",
+        "significance",
+        "p value",
+        "p-value",
+        "experiment design"
+      ]
+    },
+    {
+      "id": "sklearn-basics",
+      "name": "scikit-learn Basics",
+      "description": "Estimator API, fit/predict, pipelines and train-test splitting.",
+      "requires": [
+        "pandas",
+        "statistics"
+      ],
+      "aliases": [
+        "scikit learn",
+        "sklearn",
+        "scikit-learn",
+        "estimators"
+      ]
+    },
+    {
+      "id": "supervised-learning",
+      "name": "Supervised Learning",
+      "description": "Linear and logistic regression, decision trees, kNN, SVMs and when to use them.",
+      "requires": [
+        "sklearn-basics"
+      ],
+      "aliases": [
+        "classification",
+        "regression",
+        "predictive modeling",
+        "prediction",
+        "labels"
+      ]
+    },
+    {
+      "id": "unsupervised-learning",
+      "name": "Unsupervised Learning",
+      "description": "Clustering, dimensionality reduction (PCA, t-SNE) and anomaly detection.",
+      "requires": [
+        "sklearn-basics"
+      ],
+      "aliases": [
+        "unsupervised",
+        "clustering",
+        "kmeans",
+        "k-means",
+        "topic modeling"
+      ]
+    },
+    {
+      "id": "model-evaluation",
+      "name": "Model Evaluation",
+      "description": "Cross-validation, precision/recall, ROC-AUC, leakage and honest baselines.",
+      "requires": [
+        "supervised-learning"
+      ],
+      "aliases": [
+        "metrics",
+        "accuracy",
+        "precision",
+        "recall",
+        "f1",
+        "roc",
+        "auc",
+        "cross validation",
+        "confusion matrix"
+      ]
+    },
+    {
+      "id": "regularization",
+      "name": "Regularization & Bias-Variance",
+      "description": "Overfitting, L1/L2 penalties, early stopping and the bias-variance tradeoff.",
+      "requires": [
+        "supervised-learning"
+      ],
+      "aliases": [
+        "overfitting",
+        "underfitting",
+        "bias variance",
+        "ridge",
+        "lasso",
+        "dropout"
+      ]
+    },
+    {
+      "id": "feature-engineering",
+      "name": "Feature Engineering",
+      "description": "Encoding, scaling, interaction features, target encoding and feature selection.",
+      "requires": [
+        "model-evaluation",
+        "data-cleaning"
+      ],
+      "aliases": [
+        "features",
+        "encoding",
+        "scaling",
+        "feature selection",
+        "one hot"
+      ]
+    },
+    {
+      "id": "hyperparameter-tuning",
+      "name": "Hyperparameter Tuning",
+      "description": "Grid, random and Bayesian search plus automated model selection.",
+      "requires": [
+        "model-evaluation"
+      ],
+      "aliases": [
+        "hyperparameter",
+        "tuning",
+        "grid search",
+        "random search",
+        "optuna",
+        "bayesian optimization"
+      ]
+    },
+    {
+      "id": "ensemble-methods",
+      "name": "Ensemble Methods",
+      "description": "Bagging, boosting, random forests and stacked models.",
+      "requires": [
+        "regularization",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "ensemble",
+        "bagging",
+        "stacking",
+        "voting"
+      ]
+    },
+    {
+      "id": "gradient-boosting",
+      "name": "Gradient Boosting (XGBoost/LightGBM)",
+      "description": "Gradient boosted trees, the workhorse of tabular machine learning.",
+      "requires": [
+        "ensemble-methods"
+      ],
+      "aliases": [
+        "xgboost",
+        "lightgbm",
+        "catboost",
+        "gbdt",
+        "kaggle",
+        "tabular"
+      ]
+    },
+    {
+      "id": "imbalanced-data",
+      "name": "Imbalanced Data Handling",
+      "description": "Resampling, class weights, threshold tuning and cost-sensitive metrics.",
+      "requires": [
+        "model-evaluation"
+      ],
+      "aliases": [
+        "imbalanced",
+        "class imbalance",
+        "smote",
+        "rare events"
+      ]
+    },
+    {
+      "id": "time-series",
+      "name": "Time Series Forecasting",
+      "description": "Stationarity, ARIMA, seasonality and backtesting temporal models.",
+      "requires": [
+        "statistics",
+        "supervised-learning"
+      ],
+      "aliases": [
+        "forecasting",
+        "arima",
+        "prophet",
+        "seasonality",
+        "demand planning",
+        "stock prediction"
+      ]
+    },
+    {
+      "id": "recommender-systems",
+      "name": "Recommender Systems",
+      "description": "Collaborative filtering, matrix factorization and ranking metrics.",
+      "requires": [
+        "unsupervised-learning",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "recommender",
+        "recsys",
+        "recommendation engine",
+        "collaborative filtering",
+        "personalization"
+      ]
+    },
+    {
+      "id": "deep-learning-fundamentals",
+      "name": "Deep Learning Fundamentals",
+      "description": "Neurons, layers, activation functions, loss functions and network topology.",
+      "requires": [
+        "feature-engineering",
+        "math-calculus",
+        "math-linear-algebra"
+      ],
+      "aliases": [
+        "neural networks",
+        "neural nets",
+        "mlp",
+        "perceptron",
+        "activation functions"
+      ]
+    },
+    {
+      "id": "backpropagation",
+      "name": "Backpropagation & Autograd",
+      "description": "How gradients flow backwards through a computational graph.",
+      "requires": [
+        "deep-learning-fundamentals"
+      ],
+      "aliases": [
+        "backprop",
+        "autograd",
+        "gradient descent",
+        "automatic differentiation"
+      ]
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "description": "Tensors, nn.Module, DataLoaders and writing custom training loops.",
+      "requires": [
+        "backpropagation",
+        "numpy"
+      ],
+      "aliases": [
+        "torch",
+        "tensorflow",
+        "keras",
+        "jax",
+        "tensors"
+      ]
+    },
+    {
+      "id": "training-optimization",
+      "name": "Training & Optimization",
+      "description": "Optimizers, learning-rate schedules, batch norm, dropout and mixed precision.",
+      "requires": [
+        "pytorch"
+      ],
+      "aliases": [
+        "training loop",
+        "optimizer",
+        "adam",
+        "sgd",
+        "learning rate",
+        "batch size",
+        "schedulers"
+      ]
+    },
+    {
+      "id": "cnns",
+      "name": "Convolutional Neural Networks",
+      "description": "Convolutions, pooling, residual blocks and transfer learning for images.",
+      "requires": [
+        "pytorch",
+        "training-optimization"
+      ],
+      "aliases": [
+        "cnn",
+        "convolutional",
+        "convnet",
+        "resnet",
+        "image model"
+      ]
+    },
+    {
+      "id": "computer-vision",
+      "name": "Computer Vision",
+      "description": "Detection, segmentation, augmentation and vision model deployment.",
+      "requires": [
+        "cnns"
+      ],
+      "aliases": [
+        "cv",
+        "image classification",
+        "opencv",
+        "image recognition",
+        "understand pictures",
+        "understand images",
+        "see images",
+        "visual recognition",
+        "ocr",
+        "face recognition"
+      ]
+    },
+    {
+      "id": "rnns",
+      "name": "RNNs, LSTMs & Sequence Models",
+      "description": "Modelling sequential data and the limits that motivated attention.",
+      "requires": [
+        "pytorch",
+        "training-optimization"
+      ],
+      "aliases": [
+        "rnn",
+        "lstm",
+        "gru",
+        "sequence model",
+        "recurrent"
+      ]
+    },
+    {
+      "id": "distributed-training",
+      "name": "Distributed Training",
+      "description": "Data and model parallelism, multi-GPU training and gradient accumulation.",
+      "requires": [
+        "training-optimization",
+        "cloud-fundamentals"
+      ],
+      "aliases": [
+        "multi gpu",
+        "multi-gpu",
+        "deepspeed",
+        "fsdp",
+        "data parallel",
+        "horovod",
+        "ray train"
+      ]
+    },
+    {
+      "id": "nlp-fundamentals",
+      "name": "NLP Fundamentals",
+      "description": "Text normalization, n-grams, TF-IDF and classical text classification.",
+      "requires": [
+        "python",
+        "data-cleaning"
+      ],
+      "aliases": [
+        "nlp",
+        "natural language processing",
+        "text mining",
+        "sentiment analysis",
+        "text classification",
+        "named entity",
+        "spacy",
+        "nltk"
+      ]
+    },
+    {
+      "id": "tokenization",
+      "name": "Tokenization",
+      "description": "BPE, WordPiece, vocabularies, special tokens and context windows.",
+      "requires": [
+        "nlp-fundamentals"
+      ],
+      "aliases": [
+        "tokenizer",
+        "bpe",
+        "byte pair",
+        "subword",
+        "wordpiece",
+        "sentencepiece"
+      ]
+    },
+    {
+      "id": "attention-mechanism",
+      "name": "Attention Mechanism",
+      "description": "Query/key/value attention, self-attention and why it replaced recurrence.",
+      "requires": [
+        "rnns",
+        "tokenization"
+      ],
+      "aliases": [
+        "attention",
+        "self attention",
+        "self-attention",
+        "multi head",
+        "query key value"
+      ]
+    },
+    {
+      "id": "transformers",
+      "name": "Transformer Architecture",
+      "description": "Multi-head attention, positional encoding, encoder and decoder stacks.",
+      "requires": [
+        "attention-mechanism",
+        "cnns"
+      ],
+      "aliases": [
+        "transformer",
+        "bert",
+        "gpt architecture",
+        "encoder decoder",
+        "hugging face transformers",
+        "vit"
+      ]
+    },
+    {
+      "id": "llm-fundamentals",
+      "name": "LLM Fundamentals",
+      "description": "Pretraining, instruction tuning, sampling parameters and context management.",
+      "requires": [
+        "transformers"
+      ],
+      "aliases": [
+        "llm",
+        "large language model",
+        "gpt",
+        "chatgpt",
+        "claude",
+        "llama",
+        "mistral",
+        "gemini",
+        "genai",
+        "generative ai",
+        "foundation model",
+        "chatbot",
+        "chat bot",
+        "conversational ai",
+        "assistant"
+      ]
+    },
+    {
+      "id": "prompt-engineering",
+      "name": "Prompt Engineering",
+      "description": "Few-shot prompting, structured output, chain-of-thought and system prompts.",
+      "requires": [
+        "llm-fundamentals"
+      ],
+      "aliases": [
+        "prompt",
+        "prompting",
+        "few shot",
+        "chain of thought",
+        "system prompt",
+        "prompt design"
+      ]
+    },
+    {
+      "id": "embeddings",
+      "name": "Embeddings",
+      "description": "Dense vector representations, similarity metrics and embedding models.",
+      "requires": [
+        "transformers"
+      ],
+      "aliases": [
+        "embedding",
+        "vector representation",
+        "sentence transformers",
+        "word2vec",
+        "text embeddings",
+        "encoder model"
+      ]
+    },
+    {
+      "id": "vector-databases",
+      "name": "Vector Databases",
+      "description": "ANN indexes (HNSW/IVF), metadata filtering and vector store operations.",
+      "requires": [
+        "embeddings"
+      ],
+      "aliases": [
+        "vector database",
+        "vector db",
+        "vector store",
+        "pinecone",
+        "weaviate",
+        "chroma",
+        "chromadb",
+        "qdrant",
+        "milvus",
+        "faiss",
+        "pgvector"
+      ]
+    },
+    {
+      "id": "semantic-search",
+      "name": "Semantic Search",
+      "description": "Hybrid retrieval, reranking and relevance evaluation.",
+      "requires": [
+        "vector-databases",
+        "prompt-engineering"
+      ],
+      "aliases": [
+        "vector search",
+        "similarity search",
+        "neural search",
+        "hybrid search",
+        "reranking",
+        "similar documents",
+        "find similar",
+        "search by meaning",
+        "nearest neighbor search",
+        "document retrieval"
+      ]
+    },
+    {
+      "id": "rag",
+      "name": "Retrieval-Augmented Generation",
+      "description": "Chunking, retrieval, grounding, citations and reducing hallucination.",
+      "requires": [
+        "vector-databases",
+        "prompt-engineering"
+      ],
+      "aliases": [
+        "rag",
+        "retrieval augmented generation",
+        "chat with documents",
+        "chat with pdf",
+        "knowledge base bot",
+        "document qa",
+        "grounded generation",
+        "langchain",
+        "llamaindex",
+        "haystack",
+        "chunking",
+        "chatbot over documents",
+        "question answering"
+      ]
+    },
+    {
+      "id": "llm-agents",
+      "name": "LLM Agents & Tool Use",
+      "description": "Tool calling, planning loops, memory and multi-step agent design.",
+      "requires": [
+        "rag"
+      ],
+      "aliases": [
+        "agent",
+        "agents",
+        "agentic",
+        "tool use",
+        "tool calling",
+        "function calling",
+        "react agent",
+        "autogen",
+        "crewai",
+        "mcp",
+        "copilot"
+      ]
+    },
+    {
+      "id": "llm-evaluation",
+      "name": "LLM Evaluation",
+      "description": "Golden sets, LLM-as-judge, groundedness and regression testing prompts.",
+      "requires": [
+        "llm-fundamentals",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "llm eval",
+        "hallucination",
+        "groundedness",
+        "llm as judge",
+        "red teaming"
+      ]
+    },
+    {
+      "id": "llm-finetuning",
+      "name": "LLM Fine-Tuning",
+      "description": "Dataset curation, supervised fine-tuning and evaluating a tuned model.",
+      "requires": [
+        "llm-fundamentals",
+        "training-optimization"
+      ],
+      "aliases": [
+        "fine tuning",
+        "finetuning",
+        "fine-tune",
+        "sft",
+        "supervised fine tuning",
+        "instruction tuning",
+        "domain adaptation",
+        "train on my data"
+      ]
+    },
+    {
+      "id": "peft-lora",
+      "name": "PEFT: LoRA & QLoRA",
+      "description": "Parameter-efficient fine-tuning with adapters on consumer hardware.",
+      "requires": [
+        "llm-finetuning"
+      ],
+      "aliases": [
+        "lora",
+        "qlora",
+        "peft",
+        "adapters",
+        "parameter efficient",
+        "unsloth"
+      ]
+    },
+    {
+      "id": "rlhf",
+      "name": "RLHF & Preference Tuning",
+      "description": "Reward models, PPO and DPO for aligning models to human preferences.",
+      "requires": [
+        "llm-evaluation",
+        "peft-lora",
+        "policy-gradients"
+      ],
+      "aliases": [
+        "rlhf",
+        "dpo",
+        "preference tuning",
+        "reward model",
+        "alignment",
+        "reinforcement learning from human feedback"
+      ]
+    },
+    {
+      "id": "llm-serving",
+      "name": "LLM Serving & Inference",
+      "description": "Batching, KV caching, streaming and serving frameworks like vLLM.",
+      "requires": [
+        "model-deployment",
+        "llm-fundamentals"
+      ],
+      "aliases": [
+        "inference server",
+        "vllm",
+        "tgi",
+        "ollama",
+        "llama.cpp",
+        "latency",
+        "throughput",
+        "batching"
+      ]
+    },
+    {
+      "id": "model-quantization",
+      "name": "Quantization & Optimization",
+      "description": "INT8 and 4-bit quantization, distillation and latency/quality tradeoffs.",
+      "requires": [
+        "pytorch",
+        "model-deployment"
+      ],
+      "aliases": [
+        "quantization",
+        "quantize",
+        "gguf",
+        "awq",
+        "gptq",
+        "distillation",
+        "pruning",
+        "compression"
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker & Containers",
+      "description": "Images, layers, Dockerfiles and reproducible runtime environments.",
+      "requires": [
+        "command-line"
+      ],
+      "aliases": [
+        "docker",
+        "container",
+        "containers",
+        "dockerfile",
+        "podman"
+      ]
+    },
+    {
+      "id": "rest-apis",
+      "name": "REST APIs",
+      "description": "HTTP, request validation and building services with FastAPI or Flask.",
+      "requires": [
+        "python-oop"
+      ],
+      "aliases": [
+        "api",
+        "rest",
+        "fastapi",
+        "flask",
+        "endpoint",
+        "http",
+        "microservice",
+        "swagger"
+      ]
+    },
+    {
+      "id": "cloud-fundamentals",
+      "name": "Cloud Fundamentals",
+      "description": "Compute, object storage, IAM and managed GPU instances.",
+      "requires": [
+        "command-line"
+      ],
+      "aliases": [
+        "cloud",
+        "aws",
+        "azure",
+        "gcp",
+        "s3",
+        "ec2",
+        "sagemaker",
+        "vertex ai",
+        "lambda",
+        "serverless"
+      ]
+    },
+    {
+      "id": "model-deployment",
+      "name": "Model Deployment",
+      "description": "Packaging a trained model behind an API with versioning and rollback.",
+      "requires": [
+        "rest-apis",
+        "docker",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "deploy",
+        "productionize",
+        "production",
+        "ship a model",
+        "serving models",
+        "inference endpoint"
+      ]
+    },
+    {
+      "id": "experiment-tracking",
+      "name": "Experiment Tracking",
+      "description": "Logging runs, params, metrics and artifacts with MLflow or W&B.",
+      "requires": [
+        "sklearn-basics",
+        "git-version-control"
+      ],
+      "aliases": [
+        "mlflow",
+        "weights and biases",
+        "wandb",
+        "neptune",
+        "tensorboard",
+        "run logging"
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD Automation",
+      "description": "Automated testing, build pipelines and continuous delivery for ML code.",
+      "requires": [
+        "git-version-control",
+        "docker"
+      ],
+      "aliases": [
+        "ci/cd",
+        "cicd",
+        "continuous integration",
+        "github actions",
+        "jenkins",
+        "automated testing"
+      ]
+    },
+    {
+      "id": "mlops-fundamentals",
+      "name": "MLOps Fundamentals",
+      "description": "The end-to-end ML lifecycle: training pipelines, registries and releases.",
+      "requires": [
+        "model-deployment",
+        "experiment-tracking",
+        "ci-cd"
+      ],
+      "aliases": [
+        "mlops",
+        "ml ops",
+        "ml platform",
+        "ml lifecycle",
+        "kubeflow"
+      ]
+    },
+    {
+      "id": "model-monitoring",
+      "name": "Model Monitoring & Drift",
+      "description": "Data and concept drift detection, alerting and retraining triggers.",
+      "requires": [
+        "mlops-fundamentals"
+      ],
+      "aliases": [
+        "monitoring",
+        "drift",
+        "data drift",
+        "concept drift",
+        "observability",
+        "alerting",
+        "model decay"
+      ]
+    },
+    {
+      "id": "data-versioning",
+      "name": "Data Versioning",
+      "description": "Versioning datasets and features so experiments stay reproducible.",
+      "requires": [
+        "git-version-control",
+        "data-pipelines"
+      ],
+      "aliases": [
+        "dvc",
+        "dataset versioning",
+        "lakefs",
+        "reproducibility"
+      ]
+    },
+    {
+      "id": "ml-system-design",
+      "name": "ML System Design",
+      "description": "Framing business problems, choosing architectures and tradeoff analysis.",
+      "requires": [
+        "mlops-fundamentals",
+        "feature-engineering"
+      ],
+      "aliases": [
+        "system design",
+        "ml design interview",
+        "architecture",
+        "scalability",
+        "end to end system"
+      ]
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms & Data Structures",
+      "description": "Complexity, sorting, hashing and the data structures ML code leans on.",
+      "requires": [
+        "python"
+      ],
+      "aliases": [
+        "big o",
+        "complexity",
+        "data structures",
+        "leetcode",
+        "sorting",
+        "recursion"
+      ]
+    },
+    {
+      "id": "software-testing",
+      "name": "Testing & Code Quality",
+      "description": "Unit tests, fixtures, linting and the habits that keep a codebase changeable.",
+      "requires": [
+        "python-oop"
+      ],
+      "aliases": [
+        "pytest",
+        "unit tests",
+        "tdd",
+        "linting",
+        "code quality",
+        "mocking"
+      ]
+    },
+    {
+      "id": "dev-environments",
+      "name": "Environments & Packaging",
+      "description": "Virtual environments, dependency pinning and reproducible Python setups.",
+      "requires": [
+        "command-line",
+        "python"
+      ],
+      "aliases": [
+        "venv",
+        "conda",
+        "poetry",
+        "pip",
+        "uv",
+        "dependencies",
+        "requirements"
+      ]
+    },
+    {
+      "id": "debugging-profiling",
+      "name": "Debugging & Profiling",
+      "description": "Reading tracebacks, stepping through code and finding what is actually slow.",
+      "requires": [
+        "python-oop"
+      ],
+      "aliases": [
+        "pdb",
+        "profiler",
+        "profiling",
+        "memory leak",
+        "performance tuning",
+        "breakpoint"
+      ]
+    },
+    {
+      "id": "math-optimization",
+      "name": "Optimization Theory",
+      "description": "Convexity, constrained optimization and the methods gradient descent descends from.",
+      "requires": [
+        "math-calculus",
+        "math-linear-algebra"
+      ],
+      "aliases": [
+        "convex optimization",
+        "lagrange",
+        "constrained optimization",
+        "gradient methods",
+        "newton method"
+      ]
+    },
+    {
+      "id": "information-theory",
+      "name": "Information Theory",
+      "description": "Entropy, cross-entropy and KL divergence - the currency of ML loss functions.",
+      "requires": [
+        "probability"
+      ],
+      "aliases": [
+        "entropy",
+        "kl divergence",
+        "cross entropy",
+        "mutual information",
+        "perplexity"
+      ]
+    },
+    {
+      "id": "data-modeling",
+      "name": "Data Modeling & Warehousing",
+      "description": "Schema design, normalisation and the warehouse layer analytics sits on.",
+      "requires": [
+        "sql"
+      ],
+      "aliases": [
+        "star schema",
+        "dimensional modeling",
+        "warehouse",
+        "olap",
+        "normalization",
+        "data mart"
+      ]
+    },
+    {
+      "id": "big-data-spark",
+      "name": "Distributed Data Processing",
+      "description": "Processing data that does not fit on one machine, and the shuffle costs that follow.",
+      "requires": [
+        "data-pipelines",
+        "python-oop"
+      ],
+      "aliases": [
+        "spark",
+        "pyspark",
+        "databricks",
+        "mapreduce",
+        "hadoop",
+        "dask",
+        "distributed data"
+      ]
+    },
+    {
+      "id": "streaming-data",
+      "name": "Streaming Data",
+      "description": "Event streams, windowing and the difference between event time and processing time.",
+      "requires": [
+        "data-pipelines"
+      ],
+      "aliases": [
+        "kafka",
+        "flink",
+        "real time",
+        "event streaming",
+        "pubsub",
+        "windowing"
+      ]
+    },
+    {
+      "id": "data-quality",
+      "name": "Data Quality & Validation",
+      "description": "Contracts, expectations and schema checks that fail loudly before a model does.",
+      "requires": [
+        "data-cleaning",
+        "software-testing"
+      ],
+      "aliases": [
+        "great expectations",
+        "data contracts",
+        "schema validation",
+        "pandera",
+        "data testing"
+      ]
+    },
+    {
+      "id": "bayesian-statistics",
+      "name": "Bayesian Statistics",
+      "description": "Priors, posteriors and reasoning about uncertainty rather than point estimates.",
+      "requires": [
+        "statistics",
+        "probability"
+      ],
+      "aliases": [
+        "pymc",
+        "priors",
+        "posterior",
+        "mcmc",
+        "bayesian inference",
+        "credible interval"
+      ]
+    },
+    {
+      "id": "causal-inference",
+      "name": "Causal Inference",
+      "description": "Telling correlation from causation with treatment effects and confounders.",
+      "requires": [
+        "statistics",
+        "hypothesis-testing"
+      ],
+      "aliases": [
+        "causal",
+        "uplift",
+        "treatment effect",
+        "dowhy",
+        "propensity score",
+        "confounder",
+        "counterfactual"
+      ]
+    },
+    {
+      "id": "data-labeling",
+      "name": "Data Labeling & Annotation",
+      "description": "Annotation guidelines, inter-annotator agreement and weak supervision.",
+      "requires": [
+        "data-cleaning"
+      ],
+      "aliases": [
+        "annotation",
+        "labeling",
+        "label studio",
+        "ground truth",
+        "weak supervision",
+        "snorkel"
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "name": "Synthetic Data Generation",
+      "description": "Generating and validating data when the real thing is scarce or sensitive.",
+      "requires": [
+        "data-cleaning",
+        "statistics"
+      ],
+      "aliases": [
+        "faker",
+        "simulation data",
+        "sdv",
+        "tabular generation",
+        "data synthesis"
+      ]
+    },
+    {
+      "id": "linear-models",
+      "name": "Linear & Logistic Models",
+      "description": "Regression and classification baselines that are still hard to beat.",
+      "requires": [
+        "sklearn-basics",
+        "statistics"
+      ],
+      "aliases": [
+        "linear regression",
+        "logistic regression",
+        "glm",
+        "ols",
+        "coefficients",
+        "elastic net"
+      ]
+    },
+    {
+      "id": "tree-models",
+      "name": "Decision Trees & Random Forests",
+      "description": "Splits, impurity, depth control and why forests beat single trees.",
+      "requires": [
+        "sklearn-basics"
+      ],
+      "aliases": [
+        "decision tree",
+        "random forest",
+        "cart",
+        "gini",
+        "feature splits",
+        "forests"
+      ]
+    },
+    {
+      "id": "svm-kernels",
+      "name": "SVMs & Kernel Methods",
+      "description": "Margins, the kernel trick and where kernels still win.",
+      "requires": [
+        "sklearn-basics",
+        "math-linear-algebra"
+      ],
+      "aliases": [
+        "svm",
+        "support vector",
+        "kernel trick",
+        "rbf",
+        "margin"
+      ]
+    },
+    {
+      "id": "dimensionality-reduction",
+      "name": "Dimensionality Reduction",
+      "description": "Projecting high-dimensional data down without throwing away the signal.",
+      "requires": [
+        "unsupervised-learning",
+        "math-linear-algebra"
+      ],
+      "aliases": [
+        "pca",
+        "t-sne",
+        "umap",
+        "svd",
+        "manifold",
+        "principal components"
+      ]
+    },
+    {
+      "id": "anomaly-detection",
+      "name": "Anomaly Detection",
+      "description": "Finding the rare event when you have almost no examples of it.",
+      "requires": [
+        "unsupervised-learning",
+        "imbalanced-data"
+      ],
+      "aliases": [
+        "outlier detection",
+        "isolation forest",
+        "novelty detection",
+        "one class",
+        "fraud"
+      ]
+    },
+    {
+      "id": "model-interpretability",
+      "name": "Model Interpretability",
+      "description": "Explaining a prediction with attributions rather than intuition.",
+      "requires": [
+        "model-evaluation"
+      ],
+      "aliases": [
+        "shap",
+        "lime",
+        "feature importance",
+        "explainability",
+        "xai",
+        "partial dependence"
+      ]
+    },
+    {
+      "id": "model-calibration",
+      "name": "Probability Calibration",
+      "description": "Making a 0.8 output actually mean 80%, which most models do not out of the box.",
+      "requires": [
+        "model-evaluation",
+        "probability"
+      ],
+      "aliases": [
+        "calibration",
+        "platt scaling",
+        "isotonic",
+        "reliability diagram",
+        "brier score"
+      ]
+    },
+    {
+      "id": "automl",
+      "name": "AutoML & Model Search",
+      "description": "Automated search over pipelines, and knowing when to trust the result.",
+      "requires": [
+        "hyperparameter-tuning"
+      ],
+      "aliases": [
+        "automl",
+        "autogluon",
+        "auto sklearn",
+        "neural architecture search",
+        "pipeline search"
+      ]
+    },
+    {
+      "id": "learning-to-rank",
+      "name": "Learning to Rank",
+      "description": "Ordering results rather than scoring them independently.",
+      "requires": [
+        "supervised-learning",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "ranking",
+        "ndcg",
+        "ltr",
+        "search ranking",
+        "pairwise ranking",
+        "mrr"
+      ]
+    },
+    {
+      "id": "active-learning",
+      "name": "Active & Semi-Supervised Learning",
+      "description": "Spending a labelling budget where it changes the model most.",
+      "requires": [
+        "supervised-learning",
+        "data-labeling"
+      ],
+      "aliases": [
+        "active learning",
+        "semi supervised",
+        "pseudo labeling",
+        "human in the loop",
+        "query strategy"
+      ]
+    },
+    {
+      "id": "transfer-learning",
+      "name": "Transfer Learning",
+      "description": "Starting from someone else's weights instead of from noise.",
+      "requires": [
+        "pytorch",
+        "cnns"
+      ],
+      "aliases": [
+        "transfer learning",
+        "pretrained",
+        "feature extraction",
+        "freeze layers",
+        "backbone"
+      ]
+    },
+    {
+      "id": "data-augmentation",
+      "name": "Data Augmentation",
+      "description": "Manufacturing variation so a model stops memorising your training set.",
+      "requires": [
+        "cnns"
+      ],
+      "aliases": [
+        "augmentation",
+        "albumentations",
+        "mixup",
+        "cutout",
+        "random crop"
+      ]
+    },
+    {
+      "id": "object-detection",
+      "name": "Object Detection",
+      "description": "Finding and boxing multiple objects rather than labelling a whole image.",
+      "requires": [
+        "cnns",
+        "computer-vision"
+      ],
+      "aliases": [
+        "yolo",
+        "faster rcnn",
+        "detection",
+        "bounding box",
+        "anchor boxes",
+        "nms"
+      ]
+    },
+    {
+      "id": "image-segmentation",
+      "name": "Image Segmentation",
+      "description": "Per-pixel classification for masks rather than boxes.",
+      "requires": [
+        "cnns",
+        "computer-vision"
+      ],
+      "aliases": [
+        "unet",
+        "mask rcnn",
+        "semantic segmentation",
+        "instance segmentation",
+        "sam"
+      ]
+    },
+    {
+      "id": "autoencoders",
+      "name": "Autoencoders & Representation Learning",
+      "description": "Compressing data into a latent space you can generate from.",
+      "requires": [
+        "deep-learning-fundamentals",
+        "backpropagation"
+      ],
+      "aliases": [
+        "autoencoder",
+        "vae",
+        "latent space",
+        "representation learning",
+        "bottleneck"
+      ]
+    },
+    {
+      "id": "gans",
+      "name": "Generative Adversarial Networks",
+      "description": "Two networks in competition, and the training instability that comes with it.",
+      "requires": [
+        "autoencoders",
+        "training-optimization"
+      ],
+      "aliases": [
+        "gan",
+        "stylegan",
+        "discriminator",
+        "generator",
+        "mode collapse"
+      ]
+    },
+    {
+      "id": "diffusion-models",
+      "name": "Diffusion Models",
+      "description": "Denoising your way from noise to an image, and the schedulers that steer it.",
+      "requires": [
+        "autoencoders",
+        "training-optimization"
+      ],
+      "aliases": [
+        "diffusion",
+        "stable diffusion",
+        "denoising",
+        "text to image",
+        "sampler",
+        "controlnet"
+      ]
+    },
+    {
+      "id": "self-supervised",
+      "name": "Self-Supervised Learning",
+      "description": "Learning useful representations from unlabelled data with pretext tasks.",
+      "requires": [
+        "transfer-learning",
+        "autoencoders"
+      ],
+      "aliases": [
+        "contrastive learning",
+        "simclr",
+        "masked modeling",
+        "pretext task",
+        "dino"
+      ]
+    },
+    {
+      "id": "graph-neural-networks",
+      "name": "Graph Neural Networks",
+      "description": "Message passing over graph-structured data.",
+      "requires": [
+        "deep-learning-fundamentals",
+        "math-linear-algebra"
+      ],
+      "aliases": [
+        "gnn",
+        "graph learning",
+        "pytorch geometric",
+        "message passing",
+        "node classification"
+      ]
+    },
+    {
+      "id": "speech-audio",
+      "name": "Speech & Audio Models",
+      "description": "Spectrograms, transcription and synthesis.",
+      "requires": [
+        "rnns",
+        "transformers"
+      ],
+      "aliases": [
+        "whisper",
+        "asr",
+        "speech recognition",
+        "tts",
+        "audio",
+        "spectrogram",
+        "voice"
+      ]
+    },
+    {
+      "id": "multimodal-models",
+      "name": "Multimodal Models",
+      "description": "Joint image-text representations and the models built on them.",
+      "requires": [
+        "transformers",
+        "computer-vision"
+      ],
+      "aliases": [
+        "clip",
+        "vision language",
+        "multimodal",
+        "image captioning",
+        "vlm",
+        "visual question answering"
+      ]
+    },
+    {
+      "id": "rl-fundamentals",
+      "name": "Reinforcement Learning Fundamentals",
+      "description": "Agents, environments, rewards and the Markov decision process underneath.",
+      "requires": [
+        "probability",
+        "python-oop"
+      ],
+      "aliases": [
+        "reinforcement learning",
+        "rl",
+        "mdp",
+        "markov decision process",
+        "reward",
+        "agent environment",
+        "exploration"
+      ]
+    },
+    {
+      "id": "bandits",
+      "name": "Multi-Armed Bandits",
+      "description": "The simplest exploration problem, and the one that ships most often.",
+      "requires": [
+        "probability",
+        "statistics"
+      ],
+      "aliases": [
+        "bandit",
+        "thompson sampling",
+        "ucb",
+        "exploration exploitation",
+        "contextual bandit"
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "name": "RL Environments & Simulation",
+      "description": "Building and instrumenting the environment an agent learns in.",
+      "requires": [
+        "rl-fundamentals"
+      ],
+      "aliases": [
+        "gym",
+        "gymnasium",
+        "simulation",
+        "environment design",
+        "mujoco",
+        "reward shaping"
+      ]
+    },
+    {
+      "id": "q-learning",
+      "name": "Value Methods & Q-Learning",
+      "description": "Value iteration, temporal difference learning and tabular Q-learning.",
+      "requires": [
+        "rl-fundamentals"
+      ],
+      "aliases": [
+        "q learning",
+        "sarsa",
+        "td learning",
+        "value iteration",
+        "bellman"
+      ]
+    },
+    {
+      "id": "deep-rl",
+      "name": "Deep Reinforcement Learning",
+      "description": "Function approximation for value methods, replay buffers and target networks.",
+      "requires": [
+        "q-learning",
+        "deep-learning-fundamentals"
+      ],
+      "aliases": [
+        "dqn",
+        "deep q network",
+        "atari",
+        "replay buffer",
+        "double dqn"
+      ]
+    },
+    {
+      "id": "policy-gradients",
+      "name": "Policy Gradient Methods",
+      "description": "Optimising a policy directly, with the variance problems that brings.",
+      "requires": [
+        "deep-rl",
+        "math-optimization"
+      ],
+      "aliases": [
+        "policy gradient",
+        "reinforce",
+        "ppo",
+        "trpo",
+        "advantage estimation"
+      ]
+    },
+    {
+      "id": "actor-critic",
+      "name": "Actor-Critic Methods",
+      "description": "Combining value estimates with policy gradients for stability.",
+      "requires": [
+        "policy-gradients"
+      ],
+      "aliases": [
+        "actor critic",
+        "a2c",
+        "a3c",
+        "sac",
+        "ddpg",
+        "td3"
+      ]
+    },
+    {
+      "id": "offline-rl",
+      "name": "Offline & Batch RL",
+      "description": "Learning a policy from logged data without touching the environment.",
+      "requires": [
+        "policy-gradients"
+      ],
+      "aliases": [
+        "offline rl",
+        "batch rl",
+        "conservative q learning",
+        "decision transformer",
+        "logged data"
+      ]
+    },
+    {
+      "id": "structured-outputs",
+      "name": "Structured Outputs & Function Calling",
+      "description": "Getting parseable, schema-valid output out of a model that emits text.",
+      "requires": [
+        "prompt-engineering"
+      ],
+      "aliases": [
+        "json mode",
+        "structured output",
+        "pydantic parsing",
+        "tool schema",
+        "constrained decoding"
+      ]
+    },
+    {
+      "id": "chunking-strategies",
+      "name": "Chunking & Document Processing",
+      "description": "Turning messy documents into retrievable units without destroying context.",
+      "requires": [
+        "nlp-fundamentals"
+      ],
+      "aliases": [
+        "text splitting",
+        "document parsing",
+        "pdf extraction",
+        "layout parsing",
+        "chunk size"
+      ]
+    },
+    {
+      "id": "reranking",
+      "name": "Reranking & Hybrid Search",
+      "description": "Combining lexical and vector retrieval, then reordering what comes back.",
+      "requires": [
+        "semantic-search"
+      ],
+      "aliases": [
+        "rerank",
+        "cross encoder",
+        "bm25",
+        "hybrid retrieval",
+        "fusion",
+        "colbert"
+      ]
+    },
+    {
+      "id": "rag-evaluation",
+      "name": "RAG Evaluation",
+      "description": "Measuring retrieval and generation separately, because they fail separately.",
+      "requires": [
+        "rag",
+        "llm-evaluation"
+      ],
+      "aliases": [
+        "ragas",
+        "retrieval metrics",
+        "faithfulness",
+        "context precision",
+        "answer relevance"
+      ]
+    },
+    {
+      "id": "agent-memory",
+      "name": "Agent Memory & State",
+      "description": "Keeping an agent coherent across turns without blowing the context window.",
+      "requires": [
+        "llm-agents"
+      ],
+      "aliases": [
+        "memory",
+        "conversation state",
+        "episodic memory",
+        "context management",
+        "summarisation buffer"
+      ]
+    },
+    {
+      "id": "multi-agent-systems",
+      "name": "Multi-Agent Systems",
+      "description": "Several agents with roles, handoffs and the coordination overhead that follows.",
+      "requires": [
+        "llm-agents"
+      ],
+      "aliases": [
+        "multi agent",
+        "crew",
+        "swarm",
+        "handoff",
+        "supervisor agent",
+        "agent orchestration"
+      ]
+    },
+    {
+      "id": "llm-observability",
+      "name": "LLM Observability & Tracing",
+      "description": "Traces, token accounting and knowing what your agent actually did.",
+      "requires": [
+        "llm-evaluation",
+        "model-monitoring"
+      ],
+      "aliases": [
+        "langsmith",
+        "tracing",
+        "token usage",
+        "llm logging",
+        "langfuse",
+        "span"
+      ]
+    },
+    {
+      "id": "prompt-injection-defense",
+      "name": "Prompt Injection & LLM Security",
+      "description": "Untrusted input reaching a model that can act, and how to contain it.",
+      "requires": [
+        "prompt-engineering",
+        "llm-evaluation"
+      ],
+      "aliases": [
+        "prompt injection",
+        "jailbreak",
+        "guardrails",
+        "llm security",
+        "sanitization",
+        "data exfiltration"
+      ]
+    },
+    {
+      "id": "long-context",
+      "name": "Long-Context Techniques",
+      "description": "Position encodings, attention windows and what actually degrades at 100k tokens.",
+      "requires": [
+        "transformers",
+        "attention-mechanism"
+      ],
+      "aliases": [
+        "long context",
+        "rope",
+        "sliding window",
+        "context window",
+        "needle in a haystack",
+        "yarn"
+      ]
+    },
+    {
+      "id": "model-merging",
+      "name": "Model Merging & Adapters",
+      "description": "Combining fine-tunes without retraining from scratch.",
+      "requires": [
+        "peft-lora"
+      ],
+      "aliases": [
+        "merging",
+        "model soup",
+        "slerp",
+        "adapter fusion",
+        "task arithmetic"
+      ]
+    },
+    {
+      "id": "inference-optimization",
+      "name": "Inference Optimization",
+      "description": "Squeezing latency and throughput out of a serving stack.",
+      "requires": [
+        "llm-serving",
+        "model-quantization"
+      ],
+      "aliases": [
+        "speculative decoding",
+        "flash attention",
+        "paged attention",
+        "kv cache",
+        "continuous batching"
+      ]
+    },
+    {
+      "id": "llm-data-curation",
+      "name": "LLM Data Generation & Curation",
+      "description": "Building instruction and preference datasets, and filtering what you generate.",
+      "requires": [
+        "llm-fundamentals",
+        "data-quality"
+      ],
+      "aliases": [
+        "instruction data",
+        "distillation data",
+        "data curation",
+        "preference data",
+        "self instruct"
+      ]
+    },
+    {
+      "id": "llm-cost-optimization",
+      "name": "LLM Cost & Routing",
+      "description": "Routing between models, caching and the arithmetic of tokens.",
+      "requires": [
+        "llm-serving"
+      ],
+      "aliases": [
+        "cost optimization",
+        "model routing",
+        "prompt caching",
+        "token cost",
+        "cascade",
+        "fallback model"
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes & Orchestration",
+      "description": "Scheduling containers, and the resource limits ML workloads keep hitting.",
+      "requires": [
+        "docker"
+      ],
+      "aliases": [
+        "k8s",
+        "kubernetes",
+        "helm",
+        "pods",
+        "kubectl",
+        "cluster",
+        "container orchestration"
+      ]
+    },
+    {
+      "id": "infrastructure-as-code",
+      "name": "Infrastructure as Code",
+      "description": "Declaring infrastructure so environments are reproducible rather than remembered.",
+      "requires": [
+        "cloud-fundamentals"
+      ],
+      "aliases": [
+        "terraform",
+        "pulumi",
+        "cloudformation",
+        "iac",
+        "provisioning"
+      ]
+    },
+    {
+      "id": "gpu-infrastructure",
+      "name": "GPU Infrastructure",
+      "description": "Drivers, memory limits and getting more than one GPU to cooperate.",
+      "requires": [
+        "cloud-fundamentals",
+        "distributed-training"
+      ],
+      "aliases": [
+        "cuda",
+        "gpu cluster",
+        "nvidia",
+        "accelerator",
+        "vram",
+        "nccl"
+      ]
+    },
+    {
+      "id": "model-registry",
+      "name": "Model Registry & Versioning",
+      "description": "Knowing which model is in production and how to get back to the last one.",
+      "requires": [
+        "experiment-tracking",
+        "mlops-fundamentals"
+      ],
+      "aliases": [
+        "model registry",
+        "model versioning",
+        "staging",
+        "model lineage",
+        "promotion"
+      ]
+    },
+    {
+      "id": "feature-store",
+      "name": "Feature Stores",
+      "description": "Serving the same feature computation to training and to production.",
+      "requires": [
+        "feature-engineering",
+        "data-pipelines"
+      ],
+      "aliases": [
+        "feast",
+        "tecton",
+        "online features",
+        "offline features",
+        "training serving skew"
+      ]
+    },
+    {
+      "id": "progressive-delivery",
+      "name": "Progressive Delivery",
+      "description": "Shipping a model to a slice of traffic before betting the service on it.",
+      "requires": [
+        "model-deployment",
+        "ci-cd"
+      ],
+      "aliases": [
+        "canary",
+        "blue green",
+        "shadow deployment",
+        "rollout",
+        "feature flags",
+        "rollback"
+      ]
+    },
+    {
+      "id": "online-experimentation",
+      "name": "Online Experimentation",
+      "description": "Measuring a model in production against the one it replaces.",
+      "requires": [
+        "hypothesis-testing",
+        "model-deployment"
+      ],
+      "aliases": [
+        "online ab test",
+        "holdout",
+        "interleaving",
+        "experiment platform",
+        "guardrail metrics"
+      ]
+    },
+    {
+      "id": "ml-cost-optimization",
+      "name": "Cost & Capacity Planning",
+      "description": "Autoscaling, spot capacity and what inference actually costs per request.",
+      "requires": [
+        "cloud-fundamentals",
+        "model-deployment"
+      ],
+      "aliases": [
+        "spot instances",
+        "autoscaling",
+        "capacity planning",
+        "cost per request",
+        "rightsizing"
+      ]
+    },
+    {
+      "id": "data-privacy",
+      "name": "Data Privacy & Compliance",
+      "description": "PII handling, retention and the constraints regulation puts on training data.",
+      "requires": [
+        "cloud-fundamentals"
+      ],
+      "aliases": [
+        "gdpr",
+        "pii",
+        "anonymization",
+        "data retention",
+        "compliance",
+        "consent"
+      ]
+    },
+    {
+      "id": "edge-deployment",
+      "name": "Edge & On-Device ML",
+      "description": "Running models where there is no server, and the conversions that requires.",
+      "requires": [
+        "model-quantization",
+        "model-deployment"
+      ],
+      "aliases": [
+        "edge",
+        "on device",
+        "mobile ml",
+        "coreml",
+        "tflite",
+        "onnx",
+        "embedded"
+      ]
+    },
+    {
+      "id": "ai-ethics",
+      "name": "AI Ethics & Responsible AI",
+      "description": "Harms, trade-offs and the questions worth asking before shipping.",
+      "requires": [
+        "model-evaluation"
+      ],
+      "aliases": [
+        "ethics",
+        "responsible ai",
+        "ai principles",
+        "harm",
+        "societal impact"
+      ]
+    },
+    {
+      "id": "bias-fairness",
+      "name": "Bias & Fairness",
+      "description": "Measuring disparate impact and the fairness definitions that conflict with each other.",
+      "requires": [
+        "ai-ethics",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "fairness",
+        "bias",
+        "disparate impact",
+        "demographic parity",
+        "equalized odds",
+        "equity"
+      ]
+    },
+    {
+      "id": "model-documentation",
+      "name": "Model Cards & Documentation",
+      "description": "Writing down intended use, limits and evaluation so others can judge the model.",
+      "requires": [
+        "ai-ethics",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "model card",
+        "datasheet",
+        "documentation",
+        "transparency report",
+        "intended use"
+      ]
+    },
+    {
+      "id": "adversarial-robustness",
+      "name": "Adversarial Robustness",
+      "description": "Inputs crafted to break a model, and the defences that partly work.",
+      "requires": [
+        "deep-learning-fundamentals",
+        "model-evaluation"
+      ],
+      "aliases": [
+        "adversarial examples",
+        "robustness",
+        "perturbation",
+        "attack",
+        "evasion"
+      ]
+    },
+    {
+      "id": "privacy-preserving-ml",
+      "name": "Privacy-Preserving ML",
+      "description": "Training without centralising the data, and bounding what a model memorises.",
+      "requires": [
+        "data-privacy",
+        "deep-learning-fundamentals"
+      ],
+      "aliases": [
+        "differential privacy",
+        "federated learning",
+        "dp sgd",
+        "secure aggregation",
+        "memorization"
+      ]
+    },
+    {
+      "id": "ai-governance",
+      "name": "AI Governance & Regulation",
+      "description": "Risk tiers, audits and the paperwork that now ships with a model.",
+      "requires": [
+        "ai-ethics",
+        "data-privacy"
+      ],
+      "aliases": [
+        "eu ai act",
+        "regulation",
+        "audit",
+        "risk management",
+        "nist framework",
+        "policy"
+      ]
+    }
+  ]
+}
